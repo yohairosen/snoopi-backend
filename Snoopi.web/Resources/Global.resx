@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="direction" xml:space="preserve">
+    <value>ltr</value>
+  </data>
+  <data name="Error404Line1" xml:space="preserve">
+    <value>Oops! This page does not exist.</value>
+  </data>
+  <data name="Error404Line2" xml:space="preserve">
+    <value>And that's all that we know. Seriously.</value>
+  </data>
+  <data name="NoneForDropDowns" xml:space="preserve">
+    <value>- None -</value>
+  </data>
+  <data name="textalign" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="ActionDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ActionEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NoPermissionsForAction" xml:space="preserve">
+    <value>You do not have permissions to perform this action.</value>
+  </data>
+  <data name="ActionView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ExportAllViewToExcel" xml:space="preserve">
+    <value>export all to excel</value>
+  </data>
+  <data name="ExportCurrentViewToExcel" xml:space="preserve">
+    <value>export current view to excel</value>
+  </data>
+  <data name="MessageNoDataHere" xml:space="preserve">
+    <value>No data here, yet!</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="CountryList" xml:space="preserve">
+    <value>AF:Afghanistan|AL:Albania|DZ:Algeria|AD:Andorra|AO:Angola|AI:Anguilla|AQ:Antarctica|AG:Antigua and Barbuda|AR:Argentina|AM:Armenia|AW:Aruba|AU:Australia|AT:Austria|AZ:Azerbaijan|BS:Bahamas|BH:Bahrain|BD:Bangladesh|BB:Barbados|BY:Belarus|BE:Belgium|BZ:Belize|BJ:Benin|BM:Bermuda|BT:Bhutan|BO:Bolivia|BA:Bosnia and Herzegovina|BW:Botswana|BV:Bouvet Island|BR:Brazil|IO:British Indian Ocean Territory|VG:British Virgin Islands|BN:Brunei Darussalam|BG:Bulgaria|BF:Burkina Faso|BI:Burundi|KH:Cambodia|CM:Cameroon|CA:Canada|CV:Cape Verde|KY:Cayman Islands|CF:Central African Republic|TD:Chad|CL:Chile|CN:China|CX:Christmas Island|CO:Colombia|KM:Comoros|CG:Congo|CK:Cook Islands|CR:Costa Rica|HR:Croatia|CU:Cuba|CY:Cyprus|CZ:Czech Republic|DK:Denmark|DJ:Djibouti|DM:Dominica|DO:Dominican Republic|TP:East Timor|EC:Ecuador|EG:Egypt|SV:El Salvador|GQ:Equatorial Guinea|ER:Eritrea|EE:Estonia|ET:Ethiopia|FK:Falkland Islands|FO:Faroe Islands|FJ:Fiji|FI:Finland|FR:France|GF:French Guiana|PF:French Polynesia|GA:Gabon|GM:Gambia|GE:Georgia|DE:Germany|GH:Ghana|GI:Gibraltar|GR:Greece|GL:Greenland|GD:Grenada|GP:Guadeloupe|GT:Guatemala|GN:Guinea|GW:Guinea-Bissau|GY:Guyana|HT:Haiti|HN:Honduras|HK:Hong Kong|HU:Hungary|IS:Iceland|IN:India|ID:Indonesia|IR:Iran|IQ:Iraq|IE:Ireland|IL:Israel|IT:Italy|CI:Ivory Coast|JM:Jamaica|JP:Japan|JO:Jordan|KZ:Kazakhstan|KE:Kenya|KI:Kiribati|KW:Kuwait|KG:Kyrgyzstan|LA:Laos|LV:Latvia|LB:Lebanon|LS:Lesotho|LR:Liberia|LY:Libya|LI:Liechtenstein|LT:Lithuania|LU:Luxembourg|MO:Macau|MK:Macedonia|MG:Madagascar|MW:Malawi|MY:Malaysia|MV:Maldives|ML:Mali|MT:Malta|MQ:Martinique|MR:Mauritania|MU:Mauritius|YT:Mayotte|MX:Mexico|FM:Micronesia|MD:Moldova|MC:Monaco|MN:Mongolia|ME:Montenegro|MA:Morocco|MZ:Mozambique|MM:Myanmar|NA:Namibia|NR:Nauru|NP:Nepal|NL:Netherlands|AN:Netherlands Antilles|NC:New Caledonia|NZ:New Zealand|NI:Nicaragua|NE:Niger|NG:Nigeria|NU:Niue|NF:Norfolk Island|KP:North Korea|NO:Norway|OM:Oman|PK:Pakistan|PA:Panama|PG:Papua New Guinea|PY:Paraguay|PE:Peru|PH:Philippines|PL:Poland|PT:Portugal|QA:Qatar|RO:Romania|RU:Russian Federation|RW:Rwanda|KN:Saint Kitts and Nevis|LC:Saint Lucia|VC:Saint Vincent and The Grenadines|WS:Samoa|SM:San Marino|ST:Sao Tome and Principe|SA:Saudi Arabia|SN:Senegal|RS:Serbia|SC:Seychelles|SL:Sierra Leone|SG:Singapore|SK:Slovakia|SI:Slovenia|SB:Solomon Islands|SO:Somalia|ZA:South Africa|KR:South Korea|ES:Spain|LK:Sri Lanka|SD:Sudan|SR:Suriname|SJ:Svalbard and Jan Mayen Islands|SZ:Swaziland|SE:Sweden|CH:Switzerland|SY:Syria|TW:Taiwan|TJ:Tajikistan|TZ:Tanzania|TH:Thailand|TG:Togo|TK:Tokelau|TO:Tonga|TT:Trinidad and Tobago|TN:Tunisia|TR:Turkey|TM:Turkmenistan|TC:Turks and Caicos Islands|TV:Tuvalu|UG:Uganda|UA:Ukraine|AE:United Arab Emirates|GB:United Kingdom|US:United States|UY:Uruguay|UZ:Uzbekistan|VU:Vanuatu|VE:Venezuela|VN:Viet Nam|WF:Wallis and Futuna Islands|EH:Western Sahara|YE:Yemen|ZR:Zaire|ZM:Zambia|ZW:Zimbabwe</value>
+  </data>
+  <data name="CountryListDefault" xml:space="preserve">
+    <value>US</value>
+  </data>
+  <data name="GoogleGeocodingFailedError" xml:space="preserve">
+    <value>We couldn't find the coordinates. Seems like you're gonna have to do it yourself.</value>
+  </data>
+  <data name="GoogleLangCode" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="StateListDefault_CA" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="StateListDefault_US" xml:space="preserve">
+    <value>NY</value>
+  </data>
+  <data name="StateList_CA" xml:space="preserve">
+    <value>AB:Alberta|BC:British Columbia|MB:Manitoba|NB:New Brunswick|NL:Newfoundland|NS:Nova Scotia|NU:Nunavut|ON:Ontario|PE:Prince Edward Island|QC:Quebec|SK:Saskatchewan|NT:Northwest Territories|YT:Yukon Territory</value>
+  </data>
+  <data name="StateList_NoStates" xml:space="preserve">
+    <value>: - None -</value>
+  </data>
+  <data name="StateList_US" xml:space="preserve">
+    <value>AK:Alaska|AL:Alabama|AR:Arkansas|AZ:Arizona|CA:California|CO:Colorado|CT:Connecticut|DC:District of Columbia|DE:Delaware|FL:Florida|FM:Federated States of Micronesia|GA:Georgia|GU:Guam|HI:Hawaii|IA:Iowa|ID:Idaho|IL:Illinois|IN:Indiana|KS:Kansas|KY:Kentucky|LA:Louisiana|MA:Massachusetts|MD:Maryland|ME:Maine|MH:Marshall Islands|MI:Michigan|MN:Minnesota|MO:Missouri|MP:Northern Mariana Islands|MS:Mississippi|MT:Montana|NC:North Carolina|ND:North Dakota|NE:Nebraska|NH:New Hampshire|NJ:New Jersey|NM:New Mexico|NV:Nevada|NY:New York|OH:Ohio|OK:Oklahoma|OR:Oregon|PA:Pennsylvania|PR:Puerto Rico|PW:Palau|RI:Rhode Island|SC:South Carolina|SD:South Dakota|TN:Tennessee|TX:Texas|UT:Utah|VA:Virginia|VI:Virgin Islands|VT:Vermont|WA:Washington|WV:West Virginia|WI:Wisconsin|WY:Wyoming</value>
+  </data>
+  <data name="ShortDateFormat" xml:space="preserve">
+    <value>MM/dd/yyyy</value>
+  </data>
+  <data name="ShowHideColumns" xml:space="preserve">
+    <value>Show/Hide columns</value>
+  </data>
+  <data name="CheckAll" xml:space="preserve">
+    <value>check all</value>
+  </data>
+  <data name="ExportSelectedToExcel" xml:space="preserve">
+    <value>export selected to excel</value>
+  </data>
+  <data name="UncheckAll" xml:space="preserve">
+    <value>clear all</value>
+  </data>
+  <data name="DefaultPageTitle" xml:space="preserve">
+    <value>Welcome home!</value>
+  </data>
+  <data name="DefaultPageBody" xml:space="preserve">
+    <value>:-)</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Contains" xml:space="preserve">
+    <value>Contains</value>
+  </data>
+  <data name="EndsWith" xml:space="preserve">
+    <value>Ends with</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="FilterLabel" xml:space="preserve">
+    <value>Show items with value that:</value>
+  </data>
+  <data name="IsEqualTo" xml:space="preserve">
+    <value>Is equal to</value>
+  </data>
+  <data name="IsNotEqualTo" xml:space="preserve">
+    <value>Is not equal to</value>
+  </data>
+  <data name="StartsWith" xml:space="preserve">
+    <value>Starts with</value>
+  </data>
+  <data name="a" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="b" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>c</value>
+  </data>
+  <data name="SlogenLabel" xml:space="preserve">
+    <value>משווים. קונים. חוסכים.</value>
+  </data>
+  <data name="ContactLabel" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ContactUsSubject" xml:space="preserve">
+    <value>Contact Us Subject</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+</root>

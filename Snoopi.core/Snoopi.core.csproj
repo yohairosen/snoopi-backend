@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D29CB78-8501-4645-B34C-9C1DBD6C0A97}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Snoopi.core</RootNamespace>
+    <AssemblyName>Snoopi.core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dg.Sql">
+      <HintPath>..\libs\dg.Sql.dll</HintPath>
+    </Reference>
+    <Reference Include="dg.Sql.Connector.MySql">
+      <HintPath>..\libs\dg.Sql.Connector.MySql.dll</HintPath>
+    </Reference>
+    <Reference Include="dg.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a99a22d02334571, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\dg.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook">
+      <HintPath>..\libs\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebaseNet, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FirebaseNet.1.0.1\lib\net45\FirebaseNet.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APNSService.cs" />
+    <Compile Include="BL\AdvertisementController.cs" />
+    <Compile Include="BL\AppUsers.cs" />
+    <Compile Include="BL\AppUserUI.cs" />
+    <Compile Include="BL\AuthTokens.cs" />
+    <Compile Include="BL\AppUserActivityController.cs" />
+    <Compile Include="BL\AppMembership.cs" />
+    <Compile Include="BL\BIdMessageController.cs" />
+    <Compile Include="BL\CampaignController.cs" />
+    <Compile Include="BL\CartController.cs" />
+    <Compile Include="BL\CityController.cs" />
+    <Compile Include="BL\CommentsController.cs" />
+    <Compile Include="BL\Messages.cs" />
+    <Compile Include="BL\NotificationGroups.cs" />
+    <Compile Include="BL\NotificationsFiltersCache.cs" />
+    <Compile Include="BL\OfferServiceController.cs" />
+    <Compile Include="BL\PriceDeviationController.cs" />
+    <Compile Include="BL\ProductYad2Controller.cs" />
+    <Compile Include="BL\OfferController.cs" />
+    <Compile Include="BL\SMS.cs" />
+    <Compile Include="BL\SupplierAuthTokens.cs" />
+    <Compile Include="BL\SupplierNotification.cs" />
+    <Compile Include="BL\Notification.cs" />
+    <Compile Include="BL\SupplierController.cs" />
+    <Compile Include="BL\OrderController.cs" />
+    <Compile Include="BL\ServiceController.cs" />
+    <Compile Include="BL\ProductController.cs" />
+    <Compile Include="BL\BidController.cs" />
+    <Compile Include="BL\OrderDisplay.cs" />
+    <Compile Include="BL\EmailLogController.cs" />
+    <Compile Include="BL\EmailTemplateController.cs" />
+    <Compile Include="BL\Membership.cs" />
+    <Compile Include="BL\Permissions.cs" />
+    <Compile Include="BL\Settings.cs" />
+    <Compile Include="BL\SupplierPromotedController.cs" />
+    <Compile Include="BL\Utilities.cs" />
+    <Compile Include="Caching\Manager\CacheHelper.cs" />
+    <Compile Include="Caching\Manager\CacheManager.cs" />
+    <Compile Include="Caching\Providers\HttpRuntimeCache.cs" />
+    <Compile Include="Caching\Providers\ICacheProvider.cs" />
+    <Compile Include="Caching\Providers\NullCache.cs" />
+    <Compile Include="APNSServiceSupplier.cs" />
+    <Compile Include="CreditGuardManager.cs" />
+    <Compile Include="DAL\Entities\AdCompany.cs" />
+    <Compile Include="DAL\Entities\Advertisement.cs" />
+    <Compile Include="DAL\Entities\BidMessage.cs" />
+    <Compile Include="DAL\Entities\Cart.cs" />
+    <Compile Include="DAL\Entities\CartProduct.cs" />
+    <Compile Include="DAL\Entities\CompanyEvent.cs" />
+    <Compile Include="DAL\Entities\NotificationFilter.cs" />
+    <Compile Include="DAL\Entities\PreOrder.cs" />
+    <Compile Include="DAL\Entities\PriceDeviation.cs" />
+    <Compile Include="DAL\Entities\PromotedProduct.cs" />
+    <Compile Include="DAL\Entities\SubCaregoryFilter.cs" />
+    <Compile Include="DAL\Entities\SupplierEvent.cs" />
+    <Compile Include="DAL\Entities\SupplierPrmotedArea.cs" />
+    <Compile Include="DAL\Entities\PromotedArea.cs" />
+    <Compile Include="FcmService.cs" />
+    <Compile Include="GcmServiceSupplier.cs" />
+    <Compile Include="DAL\DbSchema.cs" />
+    <Compile Include="DAL\Entities\AppSupplierAPNSToken.cs" />
+    <Compile Include="DAL\Entities\AppSupplierAuthToken.cs" />
+    <Compile Include="DAL\Entities\AppSupplierGcmToken.cs" />
+    <Compile Include="DAL\Entities\AppUser.cs" />
+    <Compile Include="DAL\Entities\AppUserAnimal.cs" />
+    <Compile Include="DAL\Entities\AppUserAPNSToken.cs" />
+    <Compile Include="DAL\Entities\AppUserAuthToken.cs" />
+    <Compile Include="DAL\Entities\Animal.cs" />
+    <Compile Include="DAL\Entities\AppSupplier.cs" />
+    <Compile Include="DAL\Entities\AppUserCampaign.cs" />
+    <Compile Include="DAL\Entities\AppUserCard.cs" />
+    <Compile Include="DAL\Entities\AppUserGcmToken.cs" />
+    <Compile Include="DAL\Entities\Area.cs" />
+    <Compile Include="DAL\Entities\Bid.cs" />
+    <Compile Include="DAL\Entities\BidProduct.cs" />
+    <Compile Include="DAL\Entities\BidService.cs" />
+    <Compile Include="DAL\Entities\Campaign.cs" />
+    <Compile Include="DAL\Entities\Category.cs" />
+    <Compile Include="DAL\Entities\CategoryYad2.cs" />
+    <Compile Include="DAL\Entities\City.cs" />
+    <Compile Include="DAL\Entities\Comment.cs" />
+    <Compile Include="DAL\Entities\Donation.cs" />
+    <Compile Include="DAL\Entities\EmailLog.cs" />
+    <Compile Include="DAL\Entities\EmailTemplate.cs" />
+    <Compile Include="DAL\Entities\ErrorLog.cs" />
+    <Compile Include="DAL\Entities\Filter.cs" />
+    <Compile Include="DAL\Entities\Message.cs" />
+    <Compile Include="DAL\Entities\Offer.cs" />
+    <Compile Include="DAL\Entities\OfferService.cs" />
+    <Compile Include="DAL\Entities\Order.cs" />
+    <Compile Include="DAL\Entities\Permission.cs" />
+    <Compile Include="DAL\Entities\PriceFilter.cs" />
+    <Compile Include="DAL\Entities\Product.cs" />
+    <Compile Include="DAL\Entities\ProductAnimal.cs" />
+    <Compile Include="DAL\Entities\ProductFilter.cs" />
+    <Compile Include="DAL\Entities\ProductYad2.cs" />
+    <Compile Include="DAL\Entities\ProductYad2Category.cs" />
+    <Compile Include="DAL\Entities\Service.cs" />
+    <Compile Include="DAL\Entities\Setting.cs" />
+    <Compile Include="DAL\Entities\SubCategory.cs" />
+    <Compile Include="DAL\Entities\SubFilter.cs" />
+    <Compile Include="DAL\Entities\SupplierCity.cs" />
+    <Compile Include="DAL\Entities\SupplierHomeServiceCity.cs" />
+    <Compile Include="DAL\Entities\SupplierProduct.cs" />
+    <Compile Include="DAL\Entities\SupplierService.cs" />
+    <Compile Include="DAL\Entities\TempAppUser.cs" />
+    <Compile Include="DAL\Entities\User.cs" />
+    <Compile Include="DAL\Entities\UserAuthToken.cs" />
+    <Compile Include="DAL\Entities\UserPermissionMap.cs" />
+    <Compile Include="DAL\Entities\UserProfile.cs" />
+    <Compile Include="EmailMessagingService.cs" />
+    <Compile Include="GcmService.cs" />
+    <Compile Include="Helpers.cs" />
+    <Compile Include="MediaUtility.cs" />
+    <Compile Include="Properties\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SendEmailService.cs" />
+    <Compile Include="SendMessagesService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\AppResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Snoopi.infrastructure\Snoopi.infrastructure.csproj">
+      <Project>{1f4278b7-1673-4125-a3f3-79c254094c61}</Project>
+      <Name>Snoopi.infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

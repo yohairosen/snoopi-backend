@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptFileButton" xml:space="preserve">
+    <value>אשר קובץ</value>
+  </data>
+  <data name="ALL" xml:space="preserve">
+    <value>הכל</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>כמות</value>
+  </data>
+  <data name="AnimalType" xml:space="preserve">
+    <value>סוג בעל חיים</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>קטגוריה</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="DeleteImage" xml:space="preserve">
+    <value>מחק תמונה</value>
+  </data>
+  <data name="DeleteProductButton" xml:space="preserve">
+    <value>מחק מוצר</value>
+  </data>
+  <data name="DeleteProductConfirmCheckbox" xml:space="preserve">
+    <value>כן אני בטוח.</value>
+  </data>
+  <data name="DeleteProductConfirmLabel" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק מוצר זה?</value>
+  </data>
+  <data name="DeleteProductConfirmRequired" xml:space="preserve">
+    <value>אינך יכול למחוק מוצר זה בלי לאשר שאתה יודע מה אתה עושה.</value>
+  </data>
+  <data name="DeleteProductPageTitle" xml:space="preserve">
+    <value>מחק מוצר &lt;i&gt;{0}&lt;/i&gt; </value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>תאור</value>
+  </data>
+  <data name="EditProductPageTitle" xml:space="preserve">
+    <value>ערוך מוצר</value>
+  </data>
+  <data name="ExportButton" xml:space="preserve">
+    <value>יצא לאקסל</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>מסננים</value>
+  </data>
+  <data name="FilterBy" xml:space="preserve">
+    <value>סנן לפי</value>
+  </data>
+  <data name="Gift" xml:space="preserve">
+    <value>מתנה</value>
+  </data>
+  <data name="ImportErrorsLabel" xml:space="preserve">
+    <value>נמצאו שגיאות בקובץ, ראה פירוט בשדה הערות.</value>
+  </data>
+  <data name="ImportFileWrongFormat" xml:space="preserve">
+    <value>הקובץ בפורמט לא תקין.</value>
+  </data>
+  <data name="ImportNoErrorsLabel" xml:space="preserve">
+    <value>לא נמצאו שגיאות בקובץ.</value>
+  </data>
+  <data name="ImportProductsButton" xml:space="preserve">
+    <value>אשר!</value>
+  </data>
+  <data name="ImportProductsPageTitle" xml:space="preserve">
+    <value>ייבוא מוצרים</value>
+  </data>
+  <data name="IsExist" xml:space="preserve">
+    <value>במלאי</value>
+  </data>
+  <data name="IsSendSupplier" xml:space="preserve">
+    <value>לשלוח מייל לספק?</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>שורה</value>
+  </data>
+  <data name="MessageAmountEmpty" xml:space="preserve">
+    <value>כמות ריקה</value>
+  </data>
+  <data name="MessageAnimalTypeDoesntExist" xml:space="preserve">
+    <value>לא קיימת חיה כזו</value>
+  </data>
+  <data name="MessageAnimalTypeEmpty" xml:space="preserve">
+    <value>בעל חיים ריק</value>
+  </data>
+  <data name="MessageCategoryDoesntExists" xml:space="preserve">
+    <value>לא קיימת קטגוריה כזו</value>
+  </data>
+  <data name="MessageCategoryNameEmpty" xml:space="preserve">
+    <value>קטגוריה ריקה</value>
+  </data>
+  <data name="MessageCodeAlreadyExists" xml:space="preserve">
+    <value>מק"ט זה כבר קיים</value>
+  </data>
+  <data name="MessageDeleteFailedSuppliersProductInUse" xml:space="preserve">
+    <value>א"א למחוק מוצר זה כיון שהוא משוייך לספק</value>
+  </data>
+  <data name="MessageDescriptionEmpty" xml:space="preserve">
+    <value>תיאור ריק</value>
+  </data>
+  <data name="MessageFileNotSelected" xml:space="preserve">
+    <value>לא נבחר קובץ!</value>
+  </data>
+  <data name="MessageImportFailedUnknown" xml:space="preserve">
+    <value>אין אפשרות לייבא מוצרים אירעה שגיאה לא ידועה.</value>
+  </data>
+  <data name="MessageImportSuccess" xml:space="preserve">
+    <value>ייבוא מוצרים בוצע בהצלחה!</value>
+  </data>
+  <data name="MessageLineParsingError" xml:space="preserve">
+    <value>שגיאה בעיבוד שורה</value>
+  </data>
+  <data name="MessageNoProductsFound" xml:space="preserve">
+    <value>לא נמצאו מוצרים</value>
+  </data>
+  <data name="MessageProductCodeEmpty" xml:space="preserve">
+    <value>מקט מוצר ריק</value>
+  </data>
+  <data name="MessageProductCreated" xml:space="preserve">
+    <value>מוצר נוצר בהצלחה</value>
+  </data>
+  <data name="MessageProductDeleted" xml:space="preserve">
+    <value>המוצר נמחק בהצלחה</value>
+  </data>
+  <data name="MessageProductNameEmpty" xml:space="preserve">
+    <value>שם מוצר ריק</value>
+  </data>
+  <data name="MessageProductSaved" xml:space="preserve">
+    <value>המוצר נשמר</value>
+  </data>
+  <data name="MessageProductsWillNotImported" xml:space="preserve">
+    <value>המוצרים לא ייובאו</value>
+  </data>
+  <data name="MessageCategoriesOrSubCAtegoriesNotNumeric" xml:space="preserve">
+    <value>קוד קטגוריה או קטגוריית משנה אינו נומרי</value>
+  </data>
+  <data name="MessageSubCategoryDoesntExists" xml:space="preserve">
+    <value>לא קיימת קטגורית משנה כזו</value>
+  </data>
+  <data name="MessageSubCategoryNameEmpty" xml:space="preserve">
+    <value>קטגורית משנה ריקה</value>
+  </data>
+  <data name="NewProductButton" xml:space="preserve">
+    <value>מוצר חדש</value>
+  </data>
+  <data name="NewProductPageTitle" xml:space="preserve">
+    <value>מוצר חדש</value>
+  </data>
+  <data name="ProductAmount" xml:space="preserve">
+    <value>כמות (ק"ג &lt;br&gt;או יחידות)</value>
+  </data>
+  <data name="ProductAmountRequired" xml:space="preserve">
+    <value>כמות נדרשת</value>
+  </data>
+  <data name="ProductCode" xml:space="preserve">
+    <value>מק"ט</value>
+  </data>
+  <data name="ProductCodeRequired" xml:space="preserve">
+    <value>מק"ט נדרש</value>
+  </data>
+  <data name="ProductDescriptionRequired" xml:space="preserve">
+    <value>תאור נדרש</value>
+  </data>
+  <data name="ProductImage" xml:space="preserve">
+    <value>תמונה</value>
+  </data>
+  <data name="ProductImageRequired" xml:space="preserve">
+    <value>תמונה נדרשת</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>שם מוצר</value>
+  </data>
+  <data name="ProductNameRequired" xml:space="preserve">
+    <value>שם מוצר נדרש</value>
+  </data>
+  <data name="ProductPrice" xml:space="preserve">
+    <value>מחיר</value>
+  </data>
+  <data name="ProductsCountLabel" xml:space="preserve">
+    <value>סה"כ מוצרים שנמצאו:</value>
+  </data>
+  <data name="ProductsImportedCountLabel" xml:space="preserve">
+    <value>סה"כ מוצרים יובאו:</value>
+  </data>
+  <data name="ProductsPageTitle" xml:space="preserve">
+    <value>מוצרים</value>
+  </data>
+  <data name="ProductsToImportCountLabel" xml:space="preserve">
+    <value>סה"כ מוצרים שמוכנים ליבוא:</value>
+  </data>
+  <data name="Recommend" xml:space="preserve">
+    <value>המלץ על מוצר</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="SaveProduct" xml:space="preserve">
+    <value>שמור מוצר</value>
+  </data>
+  <data name="SelectImportFileLabel" xml:space="preserve">
+    <value>בחר קובץ ליבוא:</value>
+  </data>
+  <data name="SubCategory" xml:space="preserve">
+    <value>קטגורית משנה</value>
+  </data>
+  <data name="SubFilter" xml:space="preserve">
+    <value>תת סינון</value>
+  </data>
+  <data name="SupplierRecommend" xml:space="preserve">
+    <value>רוצה להמליץ על מוצר שאינו קיים במערכת? נשמח לשמוע על כך</value>
+  </data>
+  <data name="AnimalTypeLable" xml:space="preserve">
+    <value>סוג חיה:</value>
+  </data>
+  <data name="CategoryLable" xml:space="preserve">
+    <value>קטגוריה:</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>בחר</value>
+  </data>
+  <data name="ManegmentProducts" xml:space="preserve">
+    <value>ניהול מוצרים</value>
+  </data>
+  <data name="ProductId" xml:space="preserve">
+    <value>מספר סידורי</value>
+  </data>
+  <data name="ProductSupplierDescription" xml:space="preserve">
+    <value>סמן אלו מוצרים קיימים ברשותך ומלא מחיר ומתנה: (שלושת הטורים השמאליים)</value>
+  </data>
+  <data name="SearchByLable" xml:space="preserve">
+    <value>חפש לפי מק''ט:</value>
+  </data>
+  <data name="SearchLable" xml:space="preserve">
+    <value>חפש:</value>
+  </data>
+  <data name="SubCategoryLable" xml:space="preserve">
+    <value>תת קטגוריה:</value>
+  </data>
+  <data name="SupplierProductsPageTitle" xml:space="preserve">
+    <value>מוצרים של העסק &lt;i&gt;{0}&lt;/i&gt;</value>
+  </data>
+  <data name="AnimalTypeRequired" xml:space="preserve">
+    <value>נדרש סוג בעל חיים</value>
+  </data>
+  <data name="ImportErrors" xml:space="preserve">
+    <value>נמצאו שגיאות בקובץ</value>
+  </data>
+  <data name="SaveSuccess" xml:space="preserve">
+    <value>שמירה בוצעה בהצלחה</value>
+  </data>
+  <data name="ImportProductsDesc" xml:space="preserve">
+    <value>הקובץ צריך להכיל 8 עמודות, עמודה 0:  שם מוצר, עמודה 1: מק"ט, עמודה 2: מספר סידורי, עמודה 3: כמות,עמודה 4: מחיר מומלץ לצרכן, עמודה 5: תיאור,עמודה 6: סוג בע"ח- מופרד בפסיקים, עמודה 7: קטגוריה ראשית, עמודה 8: קטגוריה משנית.</value>
+  </data>
+  <data name="OrderCount" xml:space="preserve">
+    <value>מספר עסקאות:</value>
+  </data>
+  <data name="OrderSum" xml:space="preserve">
+    <value>:סכ''ה סכום</value>
+  </data>
+  <data name="SearchCode" xml:space="preserve">
+    <value>מק"ט:</value>
+  </data>
+  <data name="ProductCodeAlreadyExists" xml:space="preserve">
+    <value>מק"ט כבר קיים</value>
+  </data>
+  <data name="CategoriesNotShown" xml:space="preserve">
+    <value>(קטגוריות שאין להן קטגוריות משנה אינן מופיעות כאן)</value>
+  </data>
+  <data name="MessageSubCategoryDoesntMatch" xml:space="preserve">
+    <value>קטגורית משנה לא תואמת לקטגוריה ראשית</value>
+  </data>
+  <data name="SearchIsExists" xml:space="preserve">
+    <value>במלאי?</value>
+  </data>
+  <data name="ChooseFilter" xml:space="preserve">
+    <value>(על מנת לשייך למוצר סינון יש לשים לב שלסינון קיים תת סינון)</value>
+  </data>
+  <data name="OrderId" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProductNum" xml:space="preserve">
+    <value>מספר סידורי</value>
+  </data>
+  <data name="ProductNumAlreadyExists" xml:space="preserve">
+    <value>מספר סידורי כבר קיים</value>
+  </data>
+  <data name="ProductNumInvalid" xml:space="preserve">
+    <value>מספר סידורי לא תקין</value>
+  </data>
+  <data name="ResetAll" xml:space="preserve">
+    <value>מחק מוצרים</value>
+  </data>
+  <data name="SaveAll" xml:space="preserve">
+    <value>בחר הכל</value>
+  </data>
+  <data name="DealDetails" xml:space="preserve">
+    <value>פירוט עסקה</value>
+  </data>
+  <data name="OrderAmount" xml:space="preserve">
+    <value>כמות בהזמנה</value>
+  </data>
+  <data name="ProductAmountExcel" xml:space="preserve">
+    <value>ק"ג או יחידות</value>
+  </data>
+  <data name="RecomendedPrice" xml:space="preserve">
+    <value>מחיר מומלץ לצרכן</value>
+  </data>
+  <data name="NumericOnly" xml:space="preserve">
+    <value>ערך נומרי בלבד</value>
+  </data>
+  <data name="ProductNotSavedZeroPrice" xml:space="preserve">
+    <value>ישנם מוצרים אשר לא נשמרו.  לא ניתן להגדיר מחיר 0 על מוצר במלאי.</value>
+  </data>
+  <data name="BackToProductList" xml:space="preserve">
+    <value>חזור לרשימת המוצרים</value>
+  </data>
+  <data name="SearchCategory" xml:space="preserve">
+    <value>בחר קטגוריה:</value>
+  </data>
+  <data name="SearchSubCategory" xml:space="preserve">
+    <value>בחר תת קטגוריה:</value>
+  </data>
+  <data name="ProductRate" xml:space="preserve">
+    <value>סדר הופעה</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>שמור סדר הופעה</value>
+  </data>
+  <data name="ImportProductsDescForSupplier" xml:space="preserve">
+    <value>הקובץ צריך להכיל 7 עמודות, עמודה 0:  שם מוצר, עמודה 1: מק"ט, עמודה 2: כמות, עמודה 3: מחיר מומלץ לצרכן, עמודה 4: תיאור,עמודה 5: סוג בע"ח- מופרד בפסיקים, עמודה 6: מחיר.
+במידה וקובץ עודכן - יש להקפיד לשמור אותו בפורמט CSV  comma delimited</value>
+  </data>
+  <data name="MessageCodeInsertProductToSupplier" xml:space="preserve">
+    <value>המוצר יתווסף למלאי</value>
+  </data>
+  <data name="MessageCodeNotInsertProductToSupplierMissingPrice" xml:space="preserve">
+    <value>לא עודכן מחיר המוצר לא יובא</value>
+  </data>
+  <data name="MessageCodeRemoveProductFromSupplier" xml:space="preserve">
+    <value>המוצר יוסר מהמלאי של הספק</value>
+  </data>
+  <data name="MessageCodeUppdatePriceInSupplier" xml:space="preserve">
+    <value>המחיר של המוצר יעודכן</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>מחיר ספק</value>
+  </data>
+  <data name="SupplierExportProducts" xml:space="preserve">
+    <value>יצוא מוצרים</value>
+  </data>
+  <data name="SupplierImportProducts" xml:space="preserve">
+    <value>יבוא מוצרים</value>
+  </data>
+</root>

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93ED7DFB-7B42-499C-966F-DDF224F6E8D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Snoopi.api</RootNamespace>
+    <AssemblyName>Snoopi.api</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dg.Sql">
+      <HintPath>..\libs\dg.Sql.dll</HintPath>
+    </Reference>
+    <Reference Include="dg.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a99a22d02334571, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\dg.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMaps.LocationServices">
+      <HintPath>..\packages\GoogleMaps.LocationServices.0.9.8.5\lib\net40\GoogleMaps.LocationServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\ApiHandler.cs" />
+    <Compile Include="API\ApiHandlerBase.cs" />
+    <Compile Include="API\Handlers\AdsImageHandler.cs" />
+    <Compile Include="API\Handlers\AdsHandler.cs" />
+    <Compile Include="API\Handlers\AdvertismentHandler.cs" />
+    <Compile Include="API\Handlers\AppSupplierResetNotification.cs" />
+    <Compile Include="API\Handlers\AppUserAPNSTokenHandler.cs" />
+    <Compile Include="API\Handlers\AppUserFullProfileDetailsHandler.cs" />
+    <Compile Include="API\Handlers\AppUserGcmTokenHandler.cs" />
+    <Compile Include="API\Handlers\AppUserProfileHandler.cs" />
+    <Compile Include="API\Handlers\BidCheckSupplierWinningsHandler.cs" />
+    <Compile Include="API\Handlers\BidProductHandler.cs" />
+    <Compile Include="API\Handlers\CartsHandler.cs" />
+    <Compile Include="API\Handlers\CityHandler.cs" />
+    <Compile Include="API\Handlers\BidCloseHandler.cs" />
+    <Compile Include="API\Handlers\CloseOrderPaymentHandler.cs" />
+    <Compile Include="API\Handlers\ComparePricesHandler.cs" />
+    <Compile Include="API\Handlers\MailHandler.cs" />
+    <Compile Include="API\Handlers\PreOrderPaymentHandler.cs" />
+    <Compile Include="API\Handlers\PriceValidityHandler.cs" />
+    <Compile Include="API\Handlers\ProcessingResultsHandler.cs" />
+    <Compile Include="API\Handlers\ProcessingUrlHandler.cs" />
+    <Compile Include="API\Handlers\ProductOrderHandler.cs" />
+    <Compile Include="API\Handlers\ProductsPromotedHandler.cs" />
+    <Compile Include="API\Handlers\PushHandler.cs" />
+    <Compile Include="API\Handlers\SavedCardProcessingHandler.cs" />
+    <Compile Include="API\Handlers\SearchProductsHandler.cs" />
+    <Compile Include="API\Handlers\ServiceSuppliersHandler.cs" />
+    <Compile Include="API\Handlers\SupplierAdvertisementHandler.cs" />
+    <Compile Include="API\Handlers\SupplierBidApprovalHandler.cs" />
+    <Compile Include="API\Handlers\SupplierEventHandler.cs" />
+    <Compile Include="API\Handlers\SupplierForgotPasswordHandler.cs" />
+    <Compile Include="API\Handlers\SupplierAPNSTokenHandler.cs" />
+    <Compile Include="API\Handlers\SupplierGcmTokenHandler.cs" />
+    <Compile Include="API\Handlers\SupplierValidateVersionHandler.cs" />
+    <Compile Include="API\Handlers\UserCityHandler.cs" />
+    <Compile Include="API\Handlers\ValidateVersionHandler.cs" />
+    <Compile Include="API\Handlers\SupplierAuthValidateHandler.cs" />
+    <Compile Include="API\Handlers\SupplierWinBidHandler.cs" />
+    <Compile Include="API\Handlers\SupplierOfferBidHandler.cs" />
+    <Compile Include="API\Handlers\SupplierNewBidHandler.cs" />
+    <Compile Include="API\Handlers\SupplierLoginHandler.cs" />
+    <Compile Include="API\Handlers\SupplierLogoutHandler.cs" />
+    <Compile Include="API\Handlers\SupplierWinBidsHandler.cs" />
+    <Compile Include="API\Handlers\SupplierOfferBidsHandler.cs" />
+    <Compile Include="API\Handlers\SupplierNewBidsHandler.cs" />
+    <Compile Include="API\Handlers\OffersServiceHandler.cs" />
+    <Compile Include="API\Handlers\ServiceHandler.cs" />
+    <Compile Include="API\Handlers\MyProductsYad2Handler.cs" />
+    <Compile Include="API\Handlers\ProductsYad2FilterHandler.cs" />
+    <Compile Include="API\Handlers\ProductsYad2Handler.cs" />
+    <Compile Include="API\Handlers\ProductYad2JumpHandler.cs" />
+    <Compile Include="API\Handlers\ProductYad2Handler.cs" />
+    <Compile Include="API\Handlers\DonationHandler.cs" />
+    <Compile Include="API\Handlers\OrderReceivedHandler.cs" />
+    <Compile Include="API\Handlers\MyCardHandler.cs" />
+    <Compile Include="API\Handlers\OrderPaymentHandler.cs" />
+    <Compile Include="API\Handlers\OffersHandler.cs" />
+    <Compile Include="API\Handlers\SettingHandler.cs" />
+    <Compile Include="API\Handlers\TempAppUserHandler.cs" />
+    <Compile Include="API\Handlers\SupplierRateHandler.cs" />
+    <Compile Include="API\Handlers\SupplierHandler.cs" />
+    <Compile Include="API\Handlers\OrderHandler.cs" />
+    <Compile Include="API\Handlers\OrderHistoryHandler.cs" />
+    <Compile Include="API\Handlers\AppUserResetNotificationHandler.cs" />
+    <Compile Include="API\Handlers\AuthValidateHandler.cs" />
+    <Compile Include="API\Handlers\CategoryHandler.cs" />
+    <Compile Include="API\Handlers\MediaFileHandler.cs" />
+    <Compile Include="API\Handlers\MyAnimalHandler.cs" />
+    <Compile Include="API\Handlers\ProductHandler.cs" />
+    <Compile Include="API\Handlers\ProductsHandler.cs" />
+    <Compile Include="API\Handlers\FilterHandler.cs" />
+    <Compile Include="API\Handlers\ServicesAllHandler.cs" />
+    <Compile Include="API\Handlers\SubCategoryHandler.cs" />
+    <Compile Include="API\Handlers\ShoppingCartHandler.cs" />
+    <Compile Include="API\Handlers\StartPageHandler.cs" />
+    <Compile Include="API\Handlers\ForgotPasswordHandler.cs" />
+    <Compile Include="API\Handlers\CronJobHandler.cs" />
+    <Compile Include="API\Handlers\LoginFacebookHandler.cs" />
+    <Compile Include="API\Handlers\LoginHandler.cs" />
+    <Compile Include="API\Handlers\LogoutHandler.cs" />
+    <Compile Include="API\Handlers\SignupHandler.cs" />
+    <Compile Include="API\Handlers\TempImageDownloadHandler.cs" />
+    <Compile Include="API\OptionsHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Snoopi.core\Snoopi.core.csproj">
+      <Project>{4D29CB78-8501-4645-B34C-9C1DBD6C0A97}</Project>
+      <Name>Snoopi.core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Snoopi.web\Snoopi.web.csproj">
+      <Project>{4d291278-8501-4645-b34c-9c1dbd6c0a97}</Project>
+      <Name>Snoopi.web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GoogleMaps.LocationServices.readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

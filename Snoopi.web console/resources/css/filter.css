@@ -1,0 +1,192 @@
+﻿.iconFilter {
+    background: none;
+    border-radius: 50%;
+    background-color: white;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.arrowUp {
+    width: 0px !important;
+    height: 0px !important;
+    border-left: 7px solid transparent !important;
+    border-right: 7px solid transparent !important;
+    border-bottom: 7px solid white !important;
+    display: inline-block;
+}
+
+.arrowDown {
+    width: 0px !important;
+    height: 0px !important;
+    border-left: 7px solid transparent !important;
+    border-right: 7px solid transparent !important;
+    border-top: 7px solid white !important;
+    display: inline-block;
+}
+
+.pnlFilterCss {
+    display: none;
+    border: 1px solid black;
+    width: 157px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #cfcfcf;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.txtfilterBy {
+    width: 108px;
+    height: 17px;
+    margin-top: 17px;
+}
+
+
+.btnFiltering {
+    cursor: pointer;
+    background: #0085cc;
+    border: 1px solid #cfcfcf;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 108%;
+    font-weight: bold;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 72px;
+    margin-right: 17px;
+}
+
+.btnclose {
+    width: 29px;
+    float: left;
+}
+.btnDv {
+    margin-top: 23px;
+}
+
+.paging span {
+    width: 25px;
+    height: 24px;
+    background-color: #0085cc;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 3px;
+    display: inline-block;
+}
+
+.paging a:hover {
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 3px;
+    outline: 0;
+    border: 1px dotted #ccc;
+    display:inline-block;
+}
+
+.paging a {
+    color:#808080;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: 0;
+    border: transparent;
+    display:inline-block;
+    padding: 4px;
+}
+
+
+.pnlMultiFilterCss {
+    display: none;
+    border: 1px solid black;
+    width: 157px;
+    height: 170px;
+    padding: 10px;
+    border: 1px solid #cfcfcf;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#TotalContainer {
+    margin-top: 20px;
+}
+.multiFilter {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+
+}
+.containerMultiSelect {
+    height: 94px;
+    overflow-y: auto;
+    
+}
+
+.pnlMultiFilterCss .btnDv {
+    margin-top: 10px;
+}
+
+.pnlMultiFilterCss table {
+    width:100%;
+}
+
+
+
+.divFilter {
+    position: absolute;
+    top: 50px;
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    z-index: 400;
+    background-color: #F8F8F8;
+}
+
+#txtFilter {
+
+    width: 154px;
+  padding: 5px 8px;
+  margin: 0px 10px 15px 9px;
+}
+
+#selectFilter {
+  width: 174px;
+  padding: 5px 8px;
+  margin: 15px 11px;
+}
+
+.insiteTitle {
+  float: right;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+    
+}
+
+.dropdown-menu {
+    background:none;
+}

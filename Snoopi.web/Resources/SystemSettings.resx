@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditSettingsPageTitle" xml:space="preserve">
+    <value>Manage system settings</value>
+  </data>
+  <data name="WebSettingsPanel" xml:space="preserve">
+    <value>General web settings</value>
+  </data>
+  <data name="TempUploadFolderLabel" xml:space="preserve">
+    <value>Temporary uploads local folder:</value>
+  </data>
+  <data name="ApiTempUploadFolderLabel" xml:space="preserve">
+    <value>Temporary uploads local folder (From API layer POV):</value>
+  </data>
+  <data name="SecureUploadFolderLabel" xml:space="preserve">
+    <value>Secure upload local folder:</value>
+  </data>
+  <data name="WebRootUrlLabel" xml:space="preserve">
+    <value>Web console root url:</value>
+  </data>
+  <data name="AdminEmailLabel" xml:space="preserve">
+    <value>Admin email address:</value>
+  </data>
+  <data name="DefaultEmailFromLabel" xml:space="preserve">
+    <value>Default "from" email address:</value>
+  </data>
+  <data name="DefaultEmailFromNameLabel" xml:space="preserve">
+    <value>Default "from" email name:</value>
+  </data>
+  <data name="DefaultEmailReplyToLabel" xml:space="preserve">
+    <value>Default "reply-to" email address:</value>
+  </data>
+  <data name="DefaultEmailReplyToNameLabel" xml:space="preserve">
+    <value>Default "reply-to" email name:</value>
+  </data>
+  <data name="MailServerHostNameLabel" xml:space="preserve">
+    <value>Mail server host name:</value>
+  </data>
+  <data name="MailSettingsPanel" xml:space="preserve">
+    <value>Mail settings</value>
+  </data>
+  <data name="MailServerAuthenticationLabel" xml:space="preserve">
+    <value>Mail server requires authentication?</value>
+  </data>
+  <data name="MailServerUserNameLabel" xml:space="preserve">
+    <value>Mail account username:</value>
+  </data>
+  <data name="MailServerPasswordLabel" xml:space="preserve">
+    <value>Mail account password:</value>
+  </data>
+  <data name="MailServerPortLabel" xml:space="preserve">
+    <value>Mail server port:</value>
+  </data>
+  <data name="MailServerSslLabel" xml:space="preserve">
+    <value>Mail server uses SSL?</value>
+  </data>
+  <data name="TestMailButton" xml:space="preserve">
+    <value>Test mail settings</value>
+  </data>
+  <data name="EmailTemplateAccountApprovedLabel" xml:space="preserve">
+    <value>When an account is approved, and a notification email:</value>
+  </data>
+  <data name="EmailTemplateNewAccountLoginDetailsApprovedLabel" xml:space="preserve">
+    <value>When new account is created in approved status, send a login details:</value>
+  </data>
+  <data name="EmailTemplateNewAccountLoginDetailsNotYetApprovedLabel" xml:space="preserve">
+    <value>When new account is created in unapproved status, send a login details:</value>
+  </data>
+  <data name="EmailTemplateNewAccountWelcomeApprovedLabel" xml:space="preserve">
+    <value>When new account is created in approved status, send a welcome email:</value>
+  </data>
+  <data name="EmailTemplateNewAccountWelcomeNotYetApprovedLabel" xml:space="preserve">
+    <value>When new account is created in unapproved status, send a welcome email:</value>
+  </data>
+  <data name="EmailTemplateSettingsPanel" xml:space="preserve">
+    <value>Email templates</value>
+  </data>
+  <data name="MessageSaveSuccess" xml:space="preserve">
+    <value>Settings were saved. Please make sure that all is well.</value>
+  </data>
+  <data name="MessageTestMailFailed" xml:space="preserve">
+    <value>Test email was not sent. An error occurred:\n{0}</value>
+  </data>
+  <data name="MessageTestMailSuccess" xml:space="preserve">
+    <value>Test email was sent successfully to {0}.</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save settings!</value>
+  </data>
+  <data name="SaveConfirmLabel" xml:space="preserve">
+    <value>Confirm that you want to save</value>
+  </data>
+  <data name="SaveConfirmRequired" xml:space="preserve">
+    <value>If you want to save settings, you must confirm using the checkbox :-)</value>
+  </data>
+  <data name="SpecialSettingsPanel" xml:space="preserve">
+    <value>Special settings</value>
+  </data>
+  <data name="ApiRootUrlLabel" xml:space="preserve">
+    <value>Api root url:</value>
+  </data>
+  <data name="ApiAppUsersUploadFolderLabel" xml:space="preserve">
+    <value>App users' upload local folder (From API layer POV):</value>
+  </data>
+  <data name="AppUsersUploadFolderLabel" xml:space="preserve">
+    <value>App users' upload local folder:</value>
+  </data>
+  <data name="MatchRadiusFromLabel" xml:space="preserve">
+    <value>Radius for matching "from" address:&lt;sup&gt;(in meters)&lt;/sup&gt;</value>
+  </data>
+  <data name="MatchRadiusToLabel" xml:space="preserve">
+    <value>Radius for matching "to" address:&lt;sup&gt;(in meters)&lt;/sup&gt;</value>
+  </data>
+  <data name="MatchDateDiffLabel" xml:space="preserve">
+    <value>Maxium difference for time matching: &lt;sup&gt;(In minutes)&lt;/sup&gt;</value>
+  </data>
+  <data name="AppUserSettingsPanel" xml:space="preserve">
+    <value>App-users settings</value>
+  </data>
+  <data name="AppUserVerifyEmailLabel" xml:space="preserve">
+    <value>Do app users needs to verify their email address?</value>
+  </data>
+  <data name="EmailTemplateAppUserForgotPasswordLabel" xml:space="preserve">
+    <value>When an app user wants to reset password, send the reset link in email:</value>
+  </data>
+  <data name="EmailTemplateNewAppUserWelcomeLabel" xml:space="preserve">
+    <value>When a new app user signs up, and does not need verification, send a welcome email:</value>
+  </data>
+  <data name="EmailTemplateNewAppUserWelcomeVerifyEmailLabel" xml:space="preserve">
+    <value>When a new app user signs up, and needs verification, send a welcome email:</value>
+  </data>
+  <data name="EmailTemplateUserForgotPasswordLabel" xml:space="preserve">
+    <value>When a user wants to reset password, send the reset link in email:</value>
+  </data>
+  <data name="OfferMinPrice" xml:space="preserve">
+    <value>Min price for ofeer bid</value>
+  </data>
+  <data name="PrivacyPolicyUrlLabel" xml:space="preserve">
+    <value>Privacy Policy Url</value>
+  </data>
+  <data name="IsSendingMessagesActive" xml:space="preserve">
+    <value>Is sending messages service active? </value>
+  </data>
+</root>

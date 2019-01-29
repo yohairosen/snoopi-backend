@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptFileButton" xml:space="preserve">
+    <value>אשר קובץ</value>
+  </data>
+  <data name="AppUserCurrentPasswordLabel" xml:space="preserve">
+    <value>סיסמא נוכחית: </value>
+  </data>
+  <data name="AppUserEmailInvalid" xml:space="preserve">
+    <value>נא לספק כתובת אימייל תקינה.</value>
+  </data>
+  <data name="AppUserEmailLabel" xml:space="preserve">
+    <value>אימייל: </value>
+  </data>
+  <data name="AppUserEmailRequired" xml:space="preserve">
+    <value>נא לספק כתובת אימייל.</value>
+  </data>
+  <data name="AppUserFirstNameLabel" xml:space="preserve">
+    <value>שם פרטי:</value>
+  </data>
+  <data name="AppUserIdNumberLabel" xml:space="preserve">
+    <value>ת.ז:</value>
+  </data>
+  <data name="AppUserInstitutionLabel" xml:space="preserve">
+    <value>מוסד לימודים:</value>
+  </data>
+  <data name="AppUserLastNameLabel" xml:space="preserve">
+    <value>שם משפחה:</value>
+  </data>
+  <data name="AppUserLockedLabel" xml:space="preserve">
+    <value>נעול?</value>
+  </data>
+  <data name="AppUserNewPasswordConfirmInvalid" xml:space="preserve">
+    <value>הסיסמא לאימות לא תואמת, נא הקלד את הסיסמאות מחדש.</value>
+  </data>
+  <data name="AppUserNewPasswordConfirmLabel" xml:space="preserve">
+    <value>חזור על הסיסמא: </value>
+  </data>
+  <data name="AppUserNewPasswordConfirmRequired" xml:space="preserve">
+    <value>אתה צריך לחזור על הסיסמא, זאת על מנת לוודא שהקלדת אותה נכון.</value>
+  </data>
+  <data name="AppUserNewPasswordLabel" xml:space="preserve">
+    <value>סיסמא חדשה:</value>
+  </data>
+  <data name="AppUserNewPasswordRequired" xml:space="preserve">
+    <value>נא להקליד סיסמא.</value>
+  </data>
+  <data name="AppUserPhoneLabel" xml:space="preserve">
+    <value>טלפון:</value>
+  </data>
+  <data name="AppUsersCountLabel" xml:space="preserve">
+    <value>סה"כ משתמשים שנמצאו:</value>
+  </data>
+  <data name="AppUsersImportedCountLabel" xml:space="preserve">
+    <value>סה"כ משתמשים יובאו:</value>
+  </data>
+  <data name="AppUsersPageTitle" xml:space="preserve">
+    <value>ניהול משתמשי אפליקציה</value>
+  </data>
+  <data name="AppUserStatusLabel" xml:space="preserve">
+    <value>סטטוס:</value>
+  </data>
+  <data name="AppUsersToImportCountLabel" xml:space="preserve">
+    <value>סה"כ משתמשים שמוכנים ליבוא:</value>
+  </data>
+  <data name="AppUserStudyProgramLabel" xml:space="preserve">
+    <value>מסלול לימודים:</value>
+  </data>
+  <data name="AppUserStudyStartLabel" xml:space="preserve">
+    <value>התחיל ללמוד בתאריך:</value>
+  </data>
+  <data name="BookData" xml:space="preserve">
+    <value>פרטי הספר</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>תאריך יצירה</value>
+  </data>
+  <data name="DeleteAppUserButton" xml:space="preserve">
+    <value>מחק משתמש!</value>
+  </data>
+  <data name="DeleteAppUserConfirmCheckbox" xml:space="preserve">
+    <value>כן אני בטוח.</value>
+  </data>
+  <data name="DeleteAppUserConfirmLabel" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק משתמש זה וכל המידע המשויך אליו?</value>
+  </data>
+  <data name="DeleteAppUserConfirmRequired" xml:space="preserve">
+    <value>אינך יכול למחוק משתמש זה בלי לאשר שאתה יודע מה אתה עושה.</value>
+  </data>
+  <data name="DeleteAppUserPageTitle" xml:space="preserve">
+    <value>מחק את משתמש &lt;i&gt;{0}&lt;/i&gt;</value>
+  </data>
+  <data name="DeleteInstitutionConfirm" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק מוסד לימודים זה?</value>
+  </data>
+  <data name="DeleteStudyProgramConfirm" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק מסלול לימודים זה?</value>
+  </data>
+  <data name="DeleteStudyStartConfirm" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק מועד תחילת לימודים זה?</value>
+  </data>
+  <data name="DeleteUserStatusConfirm" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק סטטוס זה?</value>
+  </data>
+  <data name="EditAppUserPageTitle" xml:space="preserve">
+    <value>ערוך משתמש אפליקציה</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>אימייל</value>
+  </data>
+  <data name="ExportButton" xml:space="preserve">
+    <value>ייצוא לקובץ אקסל</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="IdNumber" xml:space="preserve">
+    <value>ת.ז</value>
+  </data>
+  <data name="ImportAppUserButton" xml:space="preserve">
+    <value>אשר!</value>
+  </data>
+  <data name="ImportAppUsersPageTitle" xml:space="preserve">
+    <value>ייבוא משתמשי אפליקציה</value>
+  </data>
+  <data name="ImportErrorsLabel" xml:space="preserve">
+    <value>נמצאו שגיאות בקובץ, ראה פירוט בשדה הערות.</value>
+  </data>
+  <data name="ImportFileWrongFormat" xml:space="preserve">
+    <value>הקובץ בפורמט לא תקין.</value>
+  </data>
+  <data name="ImportNoErrorsLabel" xml:space="preserve">
+    <value>לא נמצאו שגיאות בקובץ.</value>
+  </data>
+  <data name="ImportRelationsPageTitle" xml:space="preserve">
+    <value>ייבוא שיוכים בין משתמשי אפליקציה וספרים</value>
+  </data>
+  <data name="Institution" xml:space="preserve">
+    <value>מקום לימודים</value>
+  </data>
+  <data name="InstitutionName" xml:space="preserve">
+    <value>שם מוסד לימודים</value>
+  </data>
+  <data name="InstitutionNameRequired" xml:space="preserve">
+    <value>הכנס שם מוסד לימודים</value>
+  </data>
+  <data name="InstitutionsCountLabel" xml:space="preserve">
+    <value>סה"כ מוסדות שנמצאו:</value>
+  </data>
+  <data name="InstitutionsPageTitle" xml:space="preserve">
+    <value>ניהול מוסדות לימודים</value>
+  </data>
+  <data name="IsBlocked" xml:space="preserve">
+    <value>חסום?</value>
+  </data>
+  <data name="IsLocked" xml:space="preserve">
+    <value>נעול?</value>
+  </data>
+  <data name="LastLogin" xml:space="preserve">
+    <value>התחבר לאחרונה</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>שורה</value>
+  </data>
+  <data name="MessageAppUserCreated" xml:space="preserve">
+    <value>חשבון המשתמש נוצר בהצלחה.</value>
+  </data>
+  <data name="MessageAppUserNotFound" xml:space="preserve">
+    <value>המשתמש לא נמצא.</value>
+  </data>
+  <data name="MessageAppUserSaved" xml:space="preserve">
+    <value>חשבון המשתמש נשמר.</value>
+  </data>
+  <data name="MessageAppUserWillNotImported" xml:space="preserve">
+    <value>המשתמש לא ייובא.</value>
+  </data>
+  <data name="MessageBookNotFound" xml:space="preserve">
+    <value>הספר לא נמצא.</value>
+  </data>
+  <data name="MessageCreateFailedAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות ליצור משתמש, כתובת אימייל זו כבר בשימוש ע"י משתמש אחר.</value>
+  </data>
+  <data name="MessageCreateFailedEmailAddressInvalid" xml:space="preserve">
+    <value>אין אפשרות ליצור משתמש, כתובת האימייל שסיפקת אינה תקינה.</value>
+  </data>
+  <data name="MessageCreateFailedEmailAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות ליצור משתמש, משתמש עם אימייל שם זה כבר קיים.</value>
+  </data>
+  <data name="MessageCreateFailedNameAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות ליצור משתמש, משתמש עם שם זה כבר קיים.</value>
+  </data>
+  <data name="MessageCreateFailedUnknown" xml:space="preserve">
+    <value>אין אפשרות ליצור משתמש, אירעה שגיאה לא ידועה.</value>
+  </data>
+  <data name="MessageDeleteFailed" xml:space="preserve">
+    <value>אין אפשרות למחוק משתמש: </value>
+  </data>
+  <data name="MessageEmailAlreadyExists" xml:space="preserve">
+    <value>משתמש עם שם זה כבר קיים.</value>
+  </data>
+  <data name="MessageEmailChangeFailed" xml:space="preserve">
+    <value>לא ניתן לשנות כתובת אימייל. כתובת זו קרוב לוודאי בשימוש של משתמש אחר.</value>
+  </data>
+  <data name="MessageFileNotSelected" xml:space="preserve">
+    <value>לא נבחר קובץ!</value>
+  </data>
+  <data name="MessageImportFailedUnknown" xml:space="preserve">
+    <value>אין אפשרות לייבא משתמשים, אירעה שגיאה לא ידועה.</value>
+  </data>
+  <data name="MessageImportRelationsFailedUnknown" xml:space="preserve">
+    <value>אין אפשרות לייבא שיוכים, אירעה שגיאה לא ידועה.</value>
+  </data>
+  <data name="MessageImportRelationsSuccess" xml:space="preserve">
+    <value>ייבוא שיוכים בוצע בהצלחה!</value>
+  </data>
+  <data name="MessageImportSuccess" xml:space="preserve">
+    <value>ייבוא משתמשים בוצע בהצלחה!</value>
+  </data>
+  <data name="MessageInstitutionCreateFailedNameAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות ליצור מוסד לימודים, מוסד עם שם זה כבר קיים</value>
+  </data>
+  <data name="MessageInstitutionDeleteFailedInUse" xml:space="preserve">
+    <value>אין אפשרות למחוק מוסד לימודים שנמצא בשימוש.</value>
+  </data>
+  <data name="MessageInstitutionSaveFailedNameAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות לשמור מוסד לימודים, מוסד עם שם זה כבר קיים</value>
+  </data>
+  <data name="MessageLineParsingError" xml:space="preserve">
+    <value>שגיאה בעיבוד שורה</value>
+  </data>
+  <data name="MessageNameAlreadyExists" xml:space="preserve">
+    <value>משתמש עם אימייל זה כבר קיים.</value>
+  </data>
+  <data name="MessageNoAppUsersFound" xml:space="preserve">
+    <value>לא נמצאו משתמשים.</value>
+  </data>
+  <data name="MessageNoDataHere" xml:space="preserve">
+    <value>אין כאן נתונים. לא נמצאו משתמשים. נשמע מוזר? בהחלט. כנראה שתרצה ליצור קשר עם מנהל מערכת, לבדוק את העניין...</value>
+  </data>
+  <data name="MessageNoDataHereInstitutions" xml:space="preserve">
+    <value>אין כאן נתונים. לא נמצאו מוסדות לימודים. נשמע מוזר? בהחלט. כנראה שתרצה ליצור מוסד לימודים חדש...</value>
+  </data>
+  <data name="MessageNoDataHereStudyPrograms" xml:space="preserve">
+    <value>אין כאן נתונים. לא נמצאו מסלולי לימודים. נשמע מוזר? בהחלט. כנראה שתרצה ליצור מסלול לימודים חדש...</value>
+  </data>
+  <data name="MessageNoDataHereStudyStarts" xml:space="preserve">
+    <value>אין כאן נתונים. לא נמצאו מועדי תחילת לימודים. נשמע מוזר? בהחלט. כנראה שתרצה ליצור מועדתחילת לימודים חדש...</value>
+  </data>
+  <data name="MessageNoDataHereUserStatuses" xml:space="preserve">
+    <value>אין כאן נתונים. לא נמצאו סטטוסים. נשמע מוזר? בהחלט. כנראה שתרצה ליצור סטטוס חדש...</value>
+  </data>
+  <data name="MessagePasswordChangeBadOldPassword" xml:space="preserve">
+    <value>לא ניתן לשנות סיסמא, הסיסמא הנוכחית לא תואמת לסיסמא שסיפקת.</value>
+  </data>
+  <data name="MessagePasswordChangeFailedUnknown" xml:space="preserve">
+    <value>לא ניתן לשנות סיסמא, אירעה שגיאה לא ידועה.</value>
+  </data>
+  <data name="MessageRelationWillNotImported" xml:space="preserve">
+    <value>השיוך לא ייובא.</value>
+  </data>
+  <data name="MessageSaveFailedEmailAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות לשמור משתמש, משתמש עם אימייל זה כבר קיים.</value>
+  </data>
+  <data name="MessageSaveFailedNameAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות לשמור משתמש, משתמש עם שם זה כבר קיים.</value>
+  </data>
+  <data name="MessageStudyProgramCreateFailedNameAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות ליצור מסלול לימודים, מסלול לימודים עם שם זה כבר קיים</value>
+  </data>
+  <data name="MessageStudyProgramDeleteFailedInUse" xml:space="preserve">
+    <value>אין אפשרות למחוק מסלול לימודים שנמצא בשימוש.</value>
+  </data>
+  <data name="MessageStudyProgramSaveFailedNameAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות לשמור מסלול לימודים, מסלול לימודים עם שם זה כבר קיים</value>
+  </data>
+  <data name="MessageStudyStartCreateFailedNameAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות ליצור מועד תחילת לימודים, מועד תחילת לימודים עם שם זה כבר קיים</value>
+  </data>
+  <data name="MessageStudyStartDeleteFailedInUse" xml:space="preserve">
+    <value>אין אפשרות למחוק מועד תחילת לימודים שנמצא בשימוש.</value>
+  </data>
+  <data name="MessageStudyStartSaveFailedNameAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות לשמור מועד תחילת לימודים, מועד תחילת לימודים עם שם זה כבר קיים</value>
+  </data>
+  <data name="MessageUserStatusCreateFailedNameAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות ליצור סטטוס, סטטוס עם שם זה כבר קיים</value>
+  </data>
+  <data name="MessageUserStatusDeleteFailedInUse" xml:space="preserve">
+    <value>אין אפשרות למחוק סטטוס שנמצא בשימוש.</value>
+  </data>
+  <data name="MessageUserStatusSaveFailedNameAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות לשמור סטטוס, סטטוס עם שם זה כבר קיים</value>
+  </data>
+  <data name="NewAppUserButton" xml:space="preserve">
+    <value>משתמש אפליקציה חדש</value>
+  </data>
+  <data name="NewAppUserPageTitle" xml:space="preserve">
+    <value>יצירת חשבון משתמש אפליקציה חדש</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>סיסמא</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>טלפון</value>
+  </data>
+  <data name="RelationsCountLabel" xml:space="preserve">
+    <value>סה"כ שיוכים שנמצאו:</value>
+  </data>
+  <data name="RelationsImportedCountLabel" xml:space="preserve">
+    <value>סה"כ שיוכים שייובאו:</value>
+  </data>
+  <data name="RelationsToImportCountLabel" xml:space="preserve">
+    <value>סה"כ שיוכים שמוכנים לייבוא:</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>שמור משתמש</value>
+  </data>
+  <data name="SearchLabel" xml:space="preserve">
+    <value>חיפוש משתמשים:</value>
+  </data>
+  <data name="SelectImportFileLabel" xml:space="preserve">
+    <value>בחר קובץ ליבוא:</value>
+  </data>
+  <data name="ShowStudyData" xml:space="preserve">
+    <value>להראות נתוני לימודים?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>סטטוס</value>
+  </data>
+  <data name="StudyProgram" xml:space="preserve">
+    <value>מסלול לימודים</value>
+  </data>
+  <data name="StudyProgramName" xml:space="preserve">
+    <value>שם מסלול לימודים</value>
+  </data>
+  <data name="StudyProgramNameRequired" xml:space="preserve">
+    <value>הכנס שם מסלול לימודים</value>
+  </data>
+  <data name="StudyProgramsCountLabel" xml:space="preserve">
+    <value>סה"כ מסלולי לימודים שנמצאו:</value>
+  </data>
+  <data name="StudyProgramsPageTitle" xml:space="preserve">
+    <value>ניהול מסלולי לימודים</value>
+  </data>
+  <data name="StudyStart" xml:space="preserve">
+    <value>התחיל ללמוד בתאריך</value>
+  </data>
+  <data name="StudyStartName" xml:space="preserve">
+    <value>מועד תחילת לימודים</value>
+  </data>
+  <data name="StudyStartNameRequired" xml:space="preserve">
+    <value>הכנס שם מועד תחילת לימודים</value>
+  </data>
+  <data name="StudyStartsCountLabel" xml:space="preserve">
+    <value>סה"כ מועדי תחילת לימודים שנמצאו:</value>
+  </data>
+  <data name="StudyStartsPageTitle" xml:space="preserve">
+    <value>ניהול מועדי תחילת לימודים</value>
+  </data>
+  <data name="UserStatusesCountLabel" xml:space="preserve">
+    <value>סה"כ סטטוסים שנמצאו:</value>
+  </data>
+  <data name="UserStatusesPageTitle" xml:space="preserve">
+    <value>ניהול סטטוסים</value>
+  </data>
+  <data name="UserStatusName" xml:space="preserve">
+    <value>שם סטטוס</value>
+  </data>
+  <data name="UserStatusNameRequired" xml:space="preserve">
+    <value>הכנס שם סטטוס</value>
+  </data>
+  <data name="BirthDateLabel" xml:space="preserve">
+    <value>תאריך לידה:</value>
+  </data>
+  <data name="CategoriesLabel" xml:space="preserve">
+    <value>תחומי עניין ותחביבים:</value>
+  </data>
+  <data name="CategoriesRequired" xml:space="preserve">
+    <value>בחר לפחות תחביב אחד!</value>
+  </data>
+  <data name="DeleteFile" xml:space="preserve">
+    <value>מחק תמונה</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>אימייל של משתמש האפליקציה</value>
+  </data>
+  <data name="MessageUpdateOrderError" xml:space="preserve">
+    <value>אין אפשרות לעדכן סדר הצגת משתמשים, אירעה שגיאה לא ידועה.</value>
+  </data>
+  <data name="MessageUpdateOrderSuccess" xml:space="preserve">
+    <value>סדר הצגת משתמשים עודכן בהצלחה!</value>
+  </data>
+  <data name="OrderPageTitle" xml:space="preserve">
+    <value>ניהול סדר הצגת משתמשים</value>
+  </data>
+  <data name="ProfileImage" xml:space="preserve">
+    <value>תמונת פרופייל</value>
+  </data>
+  <data name="ProfileImageLabel" xml:space="preserve">
+    <value>תמונת פרופייל:</value>
+  </data>
+  <data name="UpdateOrderButton" xml:space="preserve">
+    <value>עדכן סדר הצגה!</value>
+  </data>
+  <data name="DoesNotContains" xml:space="preserve">
+    <value>לא מכיל</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>כתובת</value>
+  </data>
+  <data name="ApartmentNumber" xml:space="preserve">
+    <value>דירה:</value>
+  </data>
+  <data name="Floor" xml:space="preserve">
+    <value>קומה:</value>
+  </data>
+  <data name="IsAdv" xml:space="preserve">
+    <value>אישר קבלת חומר פרסומי?</value>
+  </data>
+  <data name="MessageAppUserDeleted" xml:space="preserve">
+    <value>משתמש נמחק בהצלחה.</value>
+  </data>
+  <data name="SearchButton" xml:space="preserve">
+    <value>חפש</value>
+  </data>
+  <data name="SearchCreateDate" xml:space="preserve">
+    <value>תאריך הרשמה מ:</value>
+  </data>
+  <data name="SearchName" xml:space="preserve">
+    <value>שם:</value>
+  </data>
+  <data name="SearchPhone" xml:space="preserve">
+    <value>טלפון:</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>עד:</value>
+  </data>
+  <data name="CreateDate" xml:space="preserve">
+    <value>תאריך הרשמה</value>
+  </data>
+  <data name="MessageNoUsersFound" xml:space="preserve">
+    <value>לא נמצאו משתמשים</value>
+  </data>
+  <data name="AptNumLabel" xml:space="preserve">
+    <value>מספר דירה:</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>עיר:</value>
+  </data>
+  <data name="FloorLabel" xml:space="preserve">
+    <value>קומה:</value>
+  </data>
+  <data name="HouseNum" xml:space="preserve">
+    <value>מספר בית:</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>רחוב:</value>
+  </data>
+  <data name="MessageAddressInvalid" xml:space="preserve">
+    <value>הכתובת אינה תקינה</value>
+  </data>
+  <data name="ActionOrder" xml:space="preserve">
+    <value>רכישות</value>
+  </data>
+  <data name="UserId" xml:space="preserve">
+    <value>מזהה משתמש</value>
+  </data>
+  <data name="ExportForCRMButton" xml:space="preserve">
+    <value>יצוא לאקסל עבור מערכת CRM</value>
+  </data>
+</root>

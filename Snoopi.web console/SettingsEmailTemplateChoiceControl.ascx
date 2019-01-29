@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="SettingsEmailTemplateChoiceControl.ascx.cs" Inherits="Snoopi.web.SettingsEmailTemplateChoiceControl" %>
+<table runat="server" id="tblOptions"></table>

@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditMessagePageTitle" xml:space="preserve">
+    <value>ערוך הודעה</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>אימייל</value>
+  </data>
+  <data name="IsLocked" xml:space="preserve">
+    <value>נעול?</value>
+  </data>
+  <data name="LastLogin" xml:space="preserve">
+    <value>התחבר לאחרונה</value>
+  </data>
+  <data name="MessageCreateFailedAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות ליצור הודעה, כתובת אימייל זו כבר בשימוש ע"י הודעה אחר.</value>
+  </data>
+  <data name="MessageCreateFailedEmailAddressInvalid" xml:space="preserve">
+    <value>אין אפשרות ליצור הודעה, כתובת האימייל שסיפקת אינה תקינה.</value>
+  </data>
+  <data name="MessageCreateFailedUnknown" xml:space="preserve">
+    <value>אין אפשרות ליצור הודעה, אירעה שגיאה לא ידועה.</value>
+  </data>
+  <data name="MessageEmailChangeFailed" xml:space="preserve">
+    <value>לא ניתן לשנות כתובת אימייל. כתובת זו קרוב לוודאי בשימוש של הודעה אחר.</value>
+  </data>
+  <data name="MessageNoDataHere" xml:space="preserve">
+    <value>אין כאן נתונים. לא נמצאו הודעות. נשמע מוזר? בהחלט. כנראה שתרצה ליצור קשר עם מנהל מערכת, לבדוק את העניין...</value>
+  </data>
+  <data name="MessagePasswordChangeFailedUnknown" xml:space="preserve">
+    <value>לא ניתן לשנות סיסמא, אירעה שגיאה לא ידועה.</value>
+  </data>
+  <data name="MessageMessageCreated" xml:space="preserve">
+    <value>ההודעה נוצרה בהצלחה ונשלחה למשתמשי האפליקציה</value>
+  </data>
+  <data name="MessageMessageSaved" xml:space="preserve">
+    <value>ההודעה נשמרה</value>
+  </data>
+  <data name="NewMessageButton" xml:space="preserve">
+    <value>הודעה חדשה</value>
+  </data>
+  <data name="NewMessagePageTitle" xml:space="preserve">
+    <value>יצירת הודעה חדשה</value>
+  </data>
+  <data name="PermissionsPanel" xml:space="preserve">
+    <value>הרשאות</value>
+  </data>
+  <data name="Perm_sys_backups" xml:space="preserve">
+    <value>גיבוי ושחזור מסד נתונים</value>
+  </data>
+  <data name="Perm_sys_edit_appusers" xml:space="preserve">
+    <value>ניהול משתמשי אפליקציה</value>
+  </data>
+  <data name="Perm_sys_edit_emails" xml:space="preserve">
+    <value>ניהול תבניות ותיעוד אימייל</value>
+  </data>
+  <data name="Perm_sys_edit_users" xml:space="preserve">
+    <value>ניהול הודעות</value>
+  </data>
+  <data name="Perm_sys_settings" xml:space="preserve">
+    <value>ניהול הגדרות מערכת</value>
+  </data>
+  <data name="Perm_sys_view_appusers" xml:space="preserve">
+    <value>צפייה במשתמשי אפליקציה</value>
+  </data>
+  <data name="Perm_sys_view_emails" xml:space="preserve">
+    <value>צפייה בתבניות ותיעוד אימייל</value>
+  </data>
+  <data name="Perm_sys_view_users" xml:space="preserve">
+    <value>צפייה במשתמשים</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>שמור הודעה</value>
+  </data>
+  <data name="MessageCurrentPasswordLabel" xml:space="preserve">
+    <value>סיסמא נוכחית: &lt;sup&gt;(אם ברצונך לשנות סיסמא)&lt;/sup&gt;</value>
+  </data>
+  <data name="MessageEmailInvalid" xml:space="preserve">
+    <value>נא לספק כתובת אימייל תקינה.</value>
+  </data>
+  <data name="MessageEmailLabel" xml:space="preserve">
+    <value>אימייל: &lt;sup&gt;משמש להתחברות&lt;/sup&gt;</value>
+  </data>
+  <data name="MessageEmailRequired" xml:space="preserve">
+    <value>נא לספק כתובת אימייל.</value>
+  </data>
+  <data name="MessageLockedLabel" xml:space="preserve">
+    <value>נעול?</value>
+  </data>
+  <data name="MessageNewPasswordConfirmInvalid" xml:space="preserve">
+    <value>הסיסמא לאימות לא תואמת, נא הקלד את הסיסמאות מחדש.</value>
+  </data>
+  <data name="MessageNewPasswordConfirmLabel" xml:space="preserve">
+    <value>חזור על הסיסמא: &lt;sup&gt;בבקשה :-)&lt;/sup&gt;</value>
+  </data>
+  <data name="MessageNewPasswordConfirmRequired" xml:space="preserve">
+    <value>אתה צריך לחזור על הסיסמא, זאת על מנת לוודא שהקלדת אותה נכון.</value>
+  </data>
+  <data name="MessageNewPasswordLabel" xml:space="preserve">
+    <value>סיסמא חדשה:</value>
+  </data>
+  <data name="MessageNewPasswordRequired" xml:space="preserve">
+    <value>נא להקליד סיסמא.</value>
+  </data>
+  <data name="DeleteMessageButton" xml:space="preserve">
+    <value>מחק הודעה!</value>
+  </data>
+  <data name="DeleteMessageConfirmCheckbox" xml:space="preserve">
+    <value>כן אני בטוח.</value>
+  </data>
+  <data name="DeleteMessageConfirmLabel" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק הודעה זו וכל המידע המשויך אליה?</value>
+  </data>
+  <data name="DeleteMessageConfirmRequired" xml:space="preserve">
+    <value>אינך יכול למחוק הודעה זו בלי לאשר שאתה יודע מה אתה עושה.</value>
+  </data>
+  <data name="DeleteMessagePageTitle" xml:space="preserve">
+    <value>מחק את הודעה &lt;i&gt;{0}&lt;/i&gt;</value>
+  </data>
+  <data name="MessagePasswordChangeBadOldPassword" xml:space="preserve">
+    <value>לא ניתן לשנות סיסמא, הסיסמא הנוכחית לא תואמת לסיסמא שסיפקת.</value>
+  </data>
+  <data name="MessagesCountLabel" xml:space="preserve">
+    <value>סה"כ הודעות שנמצאו:</value>
+  </data>
+  <data name="MessagesPageTitle" xml:space="preserve">
+    <value>ניהול הודעות</value>
+  </data>
+  <data name="MessageNoMessagesFound" xml:space="preserve">
+    <value>לא נמצאו הודעות.</value>
+  </data>
+  <data name="SearchLabel" xml:space="preserve">
+    <value>חיפוש הודעות:</value>
+  </data>
+  <data name="MessageAddressLabel" xml:space="preserve">
+    <value>כתובת:</value>
+  </data>
+  <data name="MessageAreaLabel" xml:space="preserve">
+    <value>אזורים:</value>
+  </data>
+  <data name="MessageCorLabel" xml:space="preserve">
+    <value>מיקום:</value>
+  </data>
+  <data name="MessageDescriptionLabel" xml:space="preserve">
+    <value>תוכן ההודעה:</value>
+  </data>
+  <data name="MessageFeatureLabel" xml:space="preserve">
+    <value>אופי:</value>
+  </data>
+  <data name="MessageNameLabel" xml:space="preserve">
+    <value>שם הודעה:</value>
+  </data>
+  <data name="MessageOpeningHoursLabel" xml:space="preserve">
+    <value>שעות פתיחה:</value>
+  </data>
+  <data name="MessagePriceLabel" xml:space="preserve">
+    <value>מחיר:</value>
+  </data>
+  <data name="MessageRecomendedLabel" xml:space="preserve">
+    <value>מומלץ: </value>
+  </data>
+  <data name="MessageSeasonLabel" xml:space="preserve">
+    <value>עונות:</value>
+  </data>
+  <data name="MessageSiteLabel" xml:space="preserve">
+    <value>אתר:</value>
+  </data>
+  <data name="MessageSubAreaLabel" xml:space="preserve">
+    <value>תת אזור:</value>
+  </data>
+  <data name="MessageTipsLabel" xml:space="preserve">
+    <value>טיפים: </value>
+  </data>
+  <data name="MessageTypeLabel" xml:space="preserve">
+    <value>סוגים:</value>
+  </data>
+  <data name="MessageLongitudeLabel" xml:space="preserve">
+    <value>X:</value>
+  </data>
+  <data name="MessageLatitudeLabel" xml:space="preserve">
+    <value>Y:</value>
+  </data>
+  <data name="MessageId" xml:space="preserve">
+    <value>מספר הודעה</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>כתובת</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>מאושר</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>אזור</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="CreateDate" xml:space="preserve">
+    <value>תאריך יצירה</value>
+  </data>
+  <data name="DeleteMessagesPageTitle" xml:space="preserve">
+    <value>מחיקת הודעה</value>
+  </data>
+  <data name="DeleteFile" xml:space="preserve">
+    <value>מחק קובץ</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>תוכן</value>
+  </data>
+  <data name="Feature" xml:space="preserve">
+    <value>אופי</value>
+  </data>
+  <data name="ImageFileWrongFormat" xml:space="preserve">
+    <value>תמונה בפורמט לא תקין</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>תמונות</value>
+  </data>
+  <data name="Img1" xml:space="preserve">
+    <value>תמונה 1</value>
+  </data>
+  <data name="Img2" xml:space="preserve">
+    <value>תמונה 2</value>
+  </data>
+  <data name="Img3" xml:space="preserve">
+    <value>תמונה 3</value>
+  </data>
+  <data name="MessageMessageDeleted" xml:space="preserve">
+    <value>ההודעה נמחקה</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>שם הודעה</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>שעות פתיחה</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>מחיר</value>
+  </data>
+  <data name="Recomended" xml:space="preserve">
+    <value>מומלץ</value>
+  </data>
+  <data name="Seasons" xml:space="preserve">
+    <value>עונות</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>אתר</value>
+  </data>
+  <data name="SubArea" xml:space="preserve">
+    <value>תת אזור</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>הודעות</value>
+  </data>
+  <data name="SendingDate" xml:space="preserve">
+    <value>נשלח בתאריך</value>
+  </data>
+  <data name="SendingDateLabel:" xml:space="preserve">
+    <value>נשלח בתאריך:</value>
+  </data>
+  <data name="SendButton" xml:space="preserve">
+    <value>שלח</value>
+  </data>
+  <data name="MessageConfirmSend" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך לשלוח הודעה זו?</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>יצירת הודעה</value>
+  </data>
+</root>

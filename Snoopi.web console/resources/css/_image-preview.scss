@@ -1,0 +1,11 @@
+ul.image-preview-list{
+	list-style:none none;margin:0;padding:0;
+	li{display:inline;float:left;margin:5px;padding:0;width:64px;height:64px;line-height:64px;font-size:0;text-align:center;border:1px solid gray;background:none}
+	body.rtl & li{float:right}
+	img{vertical-align:middle;border:none}
+	b{vertical-align:middle;display:inline-block;height:100%;width:0px;}
+	li.sortable{cursor:move}
+	li.deleted{outline:red dashed 2px;opacity:0.4 !important;filter:alpha(opacity=40) !important}
+	.delete{position:absolute;right:2px;top:2px;display:none;width:13px;height:16px;overflow:hidden;cursor:pointer;background:url('../images/thumb-x.png') no-repeat 0 0;}
+	li:hover .delete{display:block}
+}

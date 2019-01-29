@@ -1,0 +1,6 @@
+.body-parts{position:relative;margin:15px;background:none;}
+.side-bar, 
+.header-tray .side-bar-switcher .ico-col1{display:none;}
+
+.header-tray .side-bar-switcher a{background:url('../images/switcher-right.gif') no-repeat 0 0;}
+body.rtl .header-tray .side-bar-switcher a{background-image:url('../images/switcher-left.gif');}

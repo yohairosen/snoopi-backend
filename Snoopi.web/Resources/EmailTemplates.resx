@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BCC" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="BccLabel" xml:space="preserve">
+    <value>Bcc:</value>
+  </data>
+  <data name="BodyLabel" xml:space="preserve">
+    <value>Email body:</value>
+  </data>
+  <data name="Brief" xml:space="preserve">
+    <value>Brief</value>
+  </data>
+  <data name="CC" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="CcLabel" xml:space="preserve">
+    <value>Cc:</value>
+  </data>
+  <data name="Code_RESETLINK" xml:space="preserve">
+    <value>Reset password link</value>
+  </data>
+  <data name="Code_USEREMAIL" xml:space="preserve">
+    <value>User email</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="CreatedMessage" xml:space="preserve">
+    <value>Email template created successfully.</value>
+  </data>
+  <data name="EmailLogsCountLabel" xml:space="preserve">
+    <value>Total number of email logs found:</value>
+  </data>
+  <data name="EmailLogsPageTitle" xml:space="preserve">
+    <value>Email logs</value>
+  </data>
+  <data name="EmailTemplatesCountLabel" xml:space="preserve">
+    <value>Total number of email templates found:</value>
+  </data>
+  <data name="EmailTemplatesPageTitle" xml:space="preserve">
+    <value>Email templates</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>System Error</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="LogNumber" xml:space="preserve">
+    <value>Log #</value>
+  </data>
+  <data name="LogStatus_Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="LogStatus_Sent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="LogStatus_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="MailPriority_High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="MailPriority_Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="MailPriority_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="MessageConfirmDeleteLog" xml:space="preserve">
+    <value>Are you sure you want to delete this log item?</value>
+  </data>
+  <data name="MessageConfirmDeleteTemplate" xml:space="preserve">
+    <value>Are you sure you want to delete this item?</value>
+  </data>
+  <data name="MessageLogDeleted" xml:space="preserve">
+    <value>This log item was removed from the database.</value>
+  </data>
+  <data name="MessageTemplateDeleted" xml:space="preserve">
+    <value>The template &lt;b&gt;{0}&lt;/b&gt; was removed from the database.</value>
+  </data>
+  <data name="NewTemplateButton" xml:space="preserve">
+    <value>New Template</value>
+  </data>
+  <data name="NotSavedMessage" xml:space="preserve">
+    <value>Could not save template. An error occurred.</value>
+  </data>
+  <data name="PanelEditTemplate" xml:space="preserve">
+    <value>Edit email template</value>
+  </data>
+  <data name="PanelNewTemplate" xml:space="preserve">
+    <value>New email template</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="PriorityHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="PriorityLabel" xml:space="preserve">
+    <value>Priority:</value>
+  </data>
+  <data name="PriorityLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="PriorityNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Recipient" xml:space="preserve">
+    <value>Recipient</value>
+  </data>
+  <data name="RecipientLabel" xml:space="preserve">
+    <value>Recipient:</value>
+  </data>
+  <data name="ReplyToEmailLabel" xml:space="preserve">
+    <value>Reply-to email:</value>
+  </data>
+  <data name="ReplyToNameLabel" xml:space="preserve">
+    <value>Reply-to name:</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SavedMessage" xml:space="preserve">
+    <value>Email template saved successfully.</value>
+  </data>
+  <data name="SenderEmailLabel" xml:space="preserve">
+    <value>Sender email:</value>
+  </data>
+  <data name="SenderNameLabel" xml:space="preserve">
+    <value>Sender name:</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="SubjectLabel" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="TemplateNameLabel" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="TemplateNameRequired" xml:space="preserve">
+    <value>Name is required for this template.</value>
+  </data>
+  <data name="TitleEditTemplate" xml:space="preserve">
+    <value>Edit an email template - {0}</value>
+  </data>
+  <data name="TitleNewTemplate" xml:space="preserve">
+    <value>Create a new email template</value>
+  </data>
+  <data name="TitleTemplateCodes" xml:space="preserve">
+    <value>Codes list for email templates</value>
+  </data>
+</root>

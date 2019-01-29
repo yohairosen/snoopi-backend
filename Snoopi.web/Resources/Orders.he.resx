@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BidEndDate" xml:space="preserve">
+    <value>זמן סגירת מכרז</value>
+  </data>
+  <data name="BidId" xml:space="preserve">
+    <value>מספר מכרז</value>
+  </data>
+  <data name="DonationPrice" xml:space="preserve">
+    <value>סכום לתרומה</value>
+  </data>
+  <data name="EnterValidDates" xml:space="preserve">
+    <value>הזן תאריכים תקינים</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>שעה:</value>
+  </data>
+  <data name="FromDate" xml:space="preserve">
+    <value>זמן סגירת מכרז מתאריך:</value>
+  </data>
+  <data name="IsSendReceived" xml:space="preserve">
+    <value>לקוח אישר קבלת משלוח?</value>
+  </data>
+  <data name="MessageNoOrdersFound" xml:space="preserve">
+    <value>לא נמצאו מכירות</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="OrderDate" xml:space="preserve">
+    <value>תאריך הזמנה</value>
+  </data>
+  <data name="OrderId" xml:space="preserve">
+    <value>מספר הזמנה</value>
+  </data>
+  <data name="OrdersCountLabel" xml:space="preserve">
+    <value>סה"כ מכירות שנמצאו:</value>
+  </data>
+  <data name="OrdersPageTitle" xml:space="preserve">
+    <value>מכירות</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>סכום לתשלום</value>
+  </data>
+  <data name="SearchBid" xml:space="preserve">
+    <value>מספר מכרז:</value>
+  </data>
+  <data name="SearchBusiness" xml:space="preserve">
+    <value>שם בית עסק:</value>
+  </data>
+  <data name="SupplierId" xml:space="preserve">
+    <value>מספר ספק</value>
+  </data>
+  <data name="SupplierName" xml:space="preserve">
+    <value>שם עסק</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>שעה:</value>
+  </data>
+  <data name="ToDate" xml:space="preserve">
+    <value>עד תאריך:</value>
+  </data>
+  <data name="TransactionResponseCode" xml:space="preserve">
+    <value>סטטוס תשלום לספק</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>עיסקה בוטלה</value>
+  </data>
+  <data name="ChangeStatus" xml:space="preserve">
+    <value>שנה סטטוס ספק לשולם?</value>
+  </data>
+  <data name="NotPayed" xml:space="preserve">
+    <value>לא שולם</value>
+  </data>
+  <data name="Payed" xml:space="preserve">
+    <value>שולם</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="PrecentDiscount" xml:space="preserve">
+    <value>אחוז הנחה</value>
+  </data>
+  <data name="PriceAfterDiscount" xml:space="preserve">
+    <value>מחיר לאחר הנחה</value>
+  </data>
+  <data name="SearchStatus" xml:space="preserve">
+    <value>סטטוס תשלום:</value>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>מחיר לפני הנחה</value>
+  </data>
+  <data name="PaymentForSupplier" xml:space="preserve">
+    <value>תשלום לספק</value>
+  </data>
+  <data name="SumDonation" xml:space="preserve">
+    <value>סה"כ סכום לתרומה:</value>
+  </data>
+  <data name="SumPaymentForSupplier" xml:space="preserve">
+    <value>סה"כ תשלום לספק:</value>
+  </data>
+  <data name="SumPriceAfterDiscount" xml:space="preserve">
+    <value>סה"כ מחיר לאחר הנחה:</value>
+  </data>
+  <data name="SumTotalPrice" xml:space="preserve">
+    <value>סה"כ מחיר לפני הנחה:</value>
+  </data>
+  <data name="AppUserOrdersPageTitle" xml:space="preserve">
+    <value>רכישות לקוח {0}</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>יצירת הודעה</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>כמות: </value>
+  </data>
+  <data name="AppUserId" xml:space="preserve">
+    <value>AppUserId:</value>
+  </data>
+  <data name="CampaignName" xml:space="preserve">
+    <value>שם מבצע</value>
+  </data>
+  <data name="FromCreateDate" xml:space="preserve">
+    <value>תאריך רכישה מ:</value>
+  </data>
+  <data name="Gift" xml:space="preserve">
+    <value>מתנה</value>
+  </data>
+  <data name="LstGifts" xml:space="preserve">
+    <value>מתנות</value>
+  </data>
+  <data name="LstProducts" xml:space="preserve">
+    <value>מוצרים</value>
+  </data>
+  <data name="OrderDate1" xml:space="preserve">
+    <value>תאריך רכישה</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>מוצר: </value>
+  </data>
+  <data name="DontSaveButton" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="lblSaveNote" xml:space="preserve">
+    <value>האם ברצונך לשמור את השינויים שעשית בדף זה?</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="PaySupplierLabel" xml:space="preserve">
+    <value>סה"כ תשלום לספק:</value>
+  </data>
+  <data name="PaySupplierStatus" xml:space="preserve">
+    <value>סטטוס תשלום לספק</value>
+  </data>
+  <data name="Remarks" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="SearchPaymentStatus" xml:space="preserve">
+    <value>סטטוס תשלום לספק:</value>
+  </data>
+  <data name="TransactionStatus" xml:space="preserve">
+    <value>סטטוס תשלום</value>
+  </data>
+  <data name="AppUsers" xml:space="preserve">
+    <value>משתמשים</value>
+  </data>
+  <data name="SendTo" xml:space="preserve">
+    <value>שלח אל:</value>
+  </data>
+  <data name="Suppliers" xml:space="preserve">
+    <value>ספקים</value>
+  </data>
+  <data name="SuppliedDate" xml:space="preserve">
+    <value>סופק ללקוח בתאריך</value>
+  </data>
+  <data name="ActionType" xml:space="preserve">
+    <value>סוג פעילות</value>
+  </data>
+</root>

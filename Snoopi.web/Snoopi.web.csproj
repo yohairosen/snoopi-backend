@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D291278-8501-4645-B34C-9C1DBD6C0A97}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Snoopi.web</RootNamespace>
+    <AssemblyName>Snoopi.web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dg.Sql">
+      <HintPath>..\libs\dg.Sql.dll</HintPath>
+    </Reference>
+    <Reference Include="dg.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a99a22d02334571, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\dg.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\ApiHandler.cs" />
+    <Compile Include="API\ApiHandlerBase.cs" />
+    <Compile Include="API\Handlers\ImageUploadHandler.cs" />
+    <Compile Include="ApplicationGlobal.cs" />
+    <Compile Include="Localization\Strings\Accessors\AdvertisementsStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\CommentsStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\ContactStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\CampaignStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\BidStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\NotificationStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\PricesStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\MenuStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\MessagesStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\OrdersStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\ServicesStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\SupplierEventStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\SupplierProfileStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\SuppliersStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\Yad2Strings.cs" />
+    <Compile Include="Resources\Advertisements.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Advertisements.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Advertisements.he.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Advertisements.he.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Cart.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cart.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Cart.he.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cart.he.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Comments.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Comments.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Campaign.Designer.cs">
+      <DependentUpon>Campaign.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Bid.Designer.cs">
+      <DependentUpon>Bid.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Companies.he.Designer.cs">
+      <DependentUpon>Companies.he.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Companies.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Companies.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Notifications.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Notifications.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Prices.Designer.cs">
+      <DependentUpon>Prices.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Messages.Designer.cs" />
+    <Compile Include="Resources\Orders.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Orders.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Contact.Designer.cs">
+      <DependentUpon>Contact.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\PromotedArea.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PromotedArea.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\PromotedArea.he.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PromotedArea.he.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Services.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Services.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\SupplierEvent.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierEvent.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\SupplierEvent.he.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierEvent.he.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\SupplierProfile.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierProfile.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Suppliers.Designer.cs" />
+    <Compile Include="Resources\Yad2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Yad2.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SuppliersSessionHelper.cs" />
+    <Compile Include="Localization\Strings\Accessors\AdminMasterPageStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\AppForgotPasswordStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\AppUsersStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\CategoriesStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\FiltersStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\ProductsStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\PushStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\UserProfileStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\SystemSettingsStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\UsersStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\EmailTemplatesStrings.cs" />
+    <Compile Include="Localization\WebControls\BoundColumn.cs" />
+    <Compile Include="Localization\WebControls\Button.cs" />
+    <Compile Include="Localization\WebControls\ButtonStyle.cs" />
+    <Compile Include="Localization\WebControls\CheckBox.cs" />
+    <Compile Include="Localization\WebControls\CheckboxValidator.cs" />
+    <Compile Include="Localization\WebControls\BoundField.cs" />
+    <Compile Include="Localization\WebControls\CompareValidator.cs" />
+    <Compile Include="Localization\WebControls\TextBox.cs" />
+    <Compile Include="Localization\WebControls\TemplateField.cs" />
+    <Compile Include="Localization\WebControls\HyperLink.cs" />
+    <Compile Include="Localization\WebControls\Label.cs" />
+    <Compile Include="Localization\WebControls\LinkButton.cs" />
+    <Compile Include="Localization\WebControls\LiteralText.cs" />
+    <Compile Include="Localization\WebControls\RadioButton.cs" />
+    <Compile Include="Localization\WebControls\RegularExpressionValidator.cs" />
+    <Compile Include="Localization\WebControls\Panel.cs" />
+    <Compile Include="Localization\WebControls\RequiredFieldValidator.cs" />
+    <Compile Include="Localization\WebControls\TemplateColumn.cs" />
+    <Compile Include="Localization\Strings\Accessors\DatabaseBackupStrings.cs" />
+    <Compile Include="Localization\Strings\ResourceManagerAccessor.cs" />
+    <Compile Include="Localization\Strings\Accessors\UnsupportedBrowserStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\GlobalStrings.cs" />
+    <Compile Include="Localization\Strings\Accessors\LoginPageStrings.cs" />
+    <Compile Include="MenuConfig.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppForgotPassword.Designer.cs">
+      <DependentUpon>AppForgotPassword.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\AppUsers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppUsers.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Categories.Designer.cs" />
+    <Compile Include="Resources\Filters.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Filters.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Products.Designer.cs" />
+    <Compile Include="Resources\PushResource.Designer.cs">
+      <DependentUpon>PushResource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\UserProfile.Designer.cs">
+      <DependentUpon>UserProfile.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\SystemSettings.Designer.cs">
+      <DependentUpon>SystemSettings.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\EmailTemplates.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmailTemplates.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\AdminMasterPage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminMasterPage.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\DatabaseBackup.Designer.cs">
+      <DependentUpon>DatabaseBackup.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Global.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Global.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\LoginPage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginPage.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Menu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Menu.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\UnsupportedBrowser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UnsupportedBrowser.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Users.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Users.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionHelper.cs" />
+    <Compile Include="WebControls\AdminMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControls\AdminPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControls\MessageCenter.cs" />
+    <Compile Include="WebControls\SuppliersMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControls\SuppliersPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AdminMasterPage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AdminMasterPage.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AdminMasterPage.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Advertisements.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Advertisements.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppForgotPassword.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppForgotPassword.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppForgotPassword.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppUsers.he.resx" />
+    <EmbeddedResource Include="Resources\AppUsers.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppUsers.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Cart.he.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Cart.he.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Cart.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Cart.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Categories.he.resx" />
+    <EmbeddedResource Include="Resources\Categories.resx" />
+    <EmbeddedResource Include="Resources\Comments.he.resx" />
+    <EmbeddedResource Include="Resources\Comments.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Comments.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Companies.he.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Companies.he.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Companies.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Companies.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Contact.he.resx" />
+    <EmbeddedResource Include="Resources\Contact.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Contact.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Campaign.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Campaign.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Campaign.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Bid.he.resx">
+      <LastGenOutput>Global.he.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Bid.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Bid.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Notifications.he.resx" />
+    <EmbeddedResource Include="Resources\Notifications.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Notifications.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Prices.he.resx" />
+    <EmbeddedResource Include="Resources\Prices.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Prices.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Filters.he.resx" />
+    <EmbeddedResource Include="Resources\Filters.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Filters.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.resx" />
+    <EmbeddedResource Include="Resources\Orders.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Orders.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orders.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Products.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Products.resx" />
+    <EmbeddedResource Include="Resources\PromotedArea.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PromotedArea.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PushResource.he.resx" />
+    <EmbeddedResource Include="Resources\PushResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PushResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Services.he.resx" />
+    <EmbeddedResource Include="Resources\Services.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Services.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SupplierEvent.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SupplierEvent.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SupplierProfile.he.resx" />
+    <EmbeddedResource Include="Resources\SupplierProfile.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SupplierProfile.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Suppliers.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Suppliers.resx" />
+    <EmbeddedResource Include="Resources\SystemSettings.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Users.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UserProfile.he.resx">
+      <LastGenOutput>UserProfile.he.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Global.he.resx">
+      <LastGenOutput>Global.he.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Menu.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UserProfile.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UserProfile.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SystemSettings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SystemSettings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Users.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Users.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\EmailTemplates.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\EmailTemplates.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EmailTemplates.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\DatabaseBackup.he.resx" />
+    <EmbeddedResource Include="Resources\DatabaseBackup.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DatabaseBackup.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Global.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Global.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\LoginPage.he.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\LoginPage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LoginPage.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Menu.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Menu.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UnsupportedBrowser.he.resx" />
+    <EmbeddedResource Include="Resources\UnsupportedBrowser.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UnsupportedBrowser.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Yad2.he.resx" />
+    <EmbeddedResource Include="Resources\Yad2.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Yad2.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Snoopi.core\Snoopi.core.csproj">
+      <Project>{4d29cb78-8501-4645-b34c-9c1dbd6c0a97}</Project>
+      <Name>Snoopi.core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\SupplierEvent.he.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SupplierEvent.he.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\PromotedArea.he.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PromotedArea.he.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Advertisements.he.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Advertisements.he.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

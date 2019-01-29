@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="direction" xml:space="preserve">
+    <value>rtl</value>
+  </data>
+  <data name="Error404Line1" xml:space="preserve">
+    <value>אופס! עמוד זה לא נמצא.</value>
+  </data>
+  <data name="Error404Line2" xml:space="preserve">
+    <value>וזה כל מה שאנחנו יודעים. ברצינות.</value>
+  </data>
+  <data name="NoneForDropDowns" xml:space="preserve">
+    <value>- ללא -</value>
+  </data>
+  <data name="textalign" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="ActionDelete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="ActionEdit" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>פעולות</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="NoPermissionsForAction" xml:space="preserve">
+    <value>אין לך הרשאות לבצע פעולה זו.</value>
+  </data>
+  <data name="ActionView" xml:space="preserve">
+    <value>צפה</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>תאריך</value>
+  </data>
+  <data name="ExportAllViewToExcel" xml:space="preserve">
+    <value>ייצא הכל</value>
+  </data>
+  <data name="ExportCurrentViewToExcel" xml:space="preserve">
+    <value>ייצא את התצוגה הנוכחית</value>
+  </data>
+  <data name="MessageNoDataHere" xml:space="preserve">
+    <value>אין כאן נתונים, בינתיים!</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>סטטוס</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="CountryList" xml:space="preserve">
+    <value>UG:אוגנדה|UZ:אוזבקיסטן|AT:אוסטריה|AU:אוסטרליה|UA:אוקראינה|UY:אורוגוואי|AZ:אזרבייג'ן|AE:איחוד האמירויות הערביות|IT:איטליה|BS:איי בהאמה|VG:איי הבתולה הבריטיים|WF:איי ווילס ופוטונה|TC:איי טרקס וקייקוס|SJ:איי סבאלברד ויאן מאיין|FO:איי פארו|FK:איי פוקלנד|CK:איי קוק|KY:איי קיימן|SB:איי שלמה|ID:אינדונזיה|IS:איסלנד|IR:איראן|IE:אירלנד|SV:אל סלוודור|AL:אלבניה|DZ:אלג'יריה|AI:אנגווילה|AO:אנגולה|AD:אנדורה|AG:אנטיגואה וברבודה|AQ:אנטרקטיקה|EE:אסטוניה|AF:אפגניסטאן|EC:אקוודור|AR:ארגנטינה|AW:ארובה|ER:אריתראה|AM:ארמניה|US:ארצות הברית|ET:אתיופיה|BT:בהוטן|BV:בובה|BW:בוטסואנה|BG:בולגריה|BO:בוליביה|BA:בוסניה והרצגובינה|BI:בורונדי|BF:בורקינה פאסו|BH:בחריין|BY:בלארוס|BE:בלגיה|BZ:בליז|BD:בנגלדש|BJ:בנין|BB:ברבדוס|BN:ברוניי|BR:ברזיל|BM:ברמודה|DJ:ג'יבוטי|JM:ג'מייקה|GE:גרוזיה|GH:גאנה|GA:גבון|GT:גואטמלה|GP:גוואדלופ|GY:גויאנה|GN:גיאנה|GF:גיאנה הצרפתית|GI:גיברלטר|GW:גינאה ביסאו|GQ:גינאה המשוונית|GM:גמביה|GL:גרינלנד|DE:גרמניה|GD:גרנדה|DM:דומיניקה|DK:דנמרק|ZA:דרום אפריקה|HT:האיטי|MV:האיים המלדיביים|AN:האנטילים ההולנדיים|IN:הודו|NL:הולנד|HK:הונג קונג|HU:הונגריה|HN:הונדורס|IO:הטריטוריה הבריטית באוקיינוס ההודי|GB:הממלכה המאוחדת|PH:הפיליפינים|DO:הרפובליקה הדומיניקנית|CF:הרפובליקה המרכז-אפריקאית|TW:הרפובליקה הסינית|CG:הרפובליקה של קונגו|VN:וייטנאם|VU:ונואטו|VE:ונצואלה|ZR:זאיר|ZW:זימבבואה|ZM:זמביה|CX:חג המולד|CI:חוף השנהב|TJ:טג'יקיסטן|TV:טובאלו|TG:טוגו|TO:טונגה|TK:טוקלאו|TR:טורקיה|TM:טורקמניסטן|TZ:טנזניה|TT:טרינידד וטובגו|GR:יוון|JP:יפן|JO:ירדן|IL:ישראל|KW:כווית|CV:כף ורדה|LA:לאוס|LB:לבנון|LY:לוב|LU:לוקסמבורג|LV:לטביה|LR:ליבריה|LT:ליטא|LI:ליכטנשטיין|LS:לסוטו|MR:מאוריטניה|MU:מאוריציוס|ML:מאלי|MG:מדגסקר|MZ:מוזמביק|MD:מולדובה|MC:מונאקו|MN:מונגוליה|ME:מונטנגרו|TP:מזרח טימור|MM:מיאנמר|YT:מיוט|FM:מיקרונזיה|MW:מלאווי|MY:מלזיה|MT:מלטה|EG:מצרים|MO:מקאו|MK:מקדוניה|MX:מקסיקו|MA:מרוקו|MQ:מרטיניק|NR:נאורו|NO:נורבגיה|NF:נורפוק|NG:ניגריה|NZ:ניו זילנד|NU:ניואה|NE:ניז'ר|NI:ניקרגואה|NA:נמיביה|NP:נפאל|ST:סאו טומה ופרינסיפה|EH:סהרה המערבית|SD:סודאן|SZ:סווזילנד|SO:סומליה|SY:סוריה|SR:סורינאם|SL:סיירה לאונה|SC:סיישל|CN:סין|SG:סינגפור|SK:סלובניה|SI:סלובקיה|WS:סמואה|SM:סן מרינו|SN:סנגל|VC:סנט וינסנט והגרנדינים|LC:סנט לוסיה|KN:סנט קיטס ונוויס|ES:ספרד|RS:סרביה|LK:סרי לנקה|OM:עומאן|IQ:עיראק|SA:ערב הסעודית|PL:פולין|PF:פולינזיה הצרפתית|PT:פורטוגל|FJ:פיג'י|FI:פינלנד|PA:פנמה|PG:פפואה גינאה החדשה|PK:פקיסטן|PY:פרגוואי|PE:פרו|TD:צ'אד|CL:צ'ילה|CZ:צ'כיה|FR:צרפת|CU:קובה|CO:קולומביה|KM:קומורו|CR:קוסטה ריקה|KR:קוריאה הדרומית|KP:קוריאה הצפונית|KZ:קזחסטן|QA:קטאר|KG:קירגיזסטן|KI:קיריבטי|NC:קלדוניה החדשה|KH:קמבודיה|CM:קמרון|CA:קנדה|KE:קניה|CY:קפריסין|HR:קרואטיה|RW:רואנדה|RO:רומניה|RU:רוסיה|SE:שבדיה|CH:שווייץ|TH:תאילנד|TN:תוניסיה|YE:תימן</value>
+  </data>
+  <data name="CountryListDefault" xml:space="preserve">
+    <value>US</value>
+  </data>
+  <data name="GoogleGeocodingFailedError" xml:space="preserve">
+    <value>לא הצלחנו למצוא את הקואורדינטה. נראה שתצטרך לעשות זאת בעצמך...</value>
+  </data>
+  <data name="GoogleLangCode" xml:space="preserve">
+    <value>iw</value>
+  </data>
+  <data name="StateListDefault_CA" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="StateListDefault_US" xml:space="preserve">
+    <value>NY</value>
+  </data>
+  <data name="StateList_CA" xml:space="preserve">
+    <value>AB:אלברטה|BC:קולומביה הבריטית|MB:מניטובה|NB:ניו ברנזוויק|NL:ניו פאונדלנד|NS:נובה סקוטיה|NU:נונאווט|ON:אונטריו|PE:אי הנסיך אדוארד|QC:קויבק|SK:ססקצ'ואן|NT:הטריטוריות הצפון-מערביות|YT:יוקון</value>
+  </data>
+  <data name="StateList_NoStates" xml:space="preserve">
+    <value>: - ללא -</value>
+  </data>
+  <data name="StateList_US" xml:space="preserve">
+    <value>OH:אוהיו|OK:אוקלהומה|OR:אורגון|ID:אידהו|IA:איווה|VI:איי הבתולה|MP:איי מריאנה הצפוניים|MH:איי מרשל|IL:אילינוי|IN:אינדיאנה|AL:אלבמה|AK:אלסקה|AZ:אריזונה|AR:ארקנסו|GA:ג'ורג'יה|GU:גואם|DE:דלור|SD:דקוטה הדרומית|ND:דקוטה הצפונית|HI:הוואי|WY:וויומינג|WI:וויסקונסין|WA:וושינגטון|VA:וירג'יניה|WV:וירג'יניה המערבית|VT:ורמונט|TN:טנסי|TX:טקסס|UT:יוטה|AP:כוחות הצבא באוקיינוס השקט|AE:כוחות הצבא באירופה, המזרח התיכון וקנדה|AA:כוחות הצבא באמריקה|LA:לואיזיאנה|MT:מונטנה|MO:מיזורי|ME:מיין|MN:מינסוטה|MS:מיסיסיפי|FM:מיקרונזיה|MI:מישיגן|MA:מסצ'וסטס|MD:מקילנד|NV:נבדה|NE:נברסקה|NJ:ניו ג'רזי|NH:ניו המפשר|NY:ניו יורק|NM:ניו מקסיקו|AS:סמואה האמריקנית|PR:פורטו ריקו|PW:פלאו|FL:פלורידה|PA:פנסילבניה|DC:קולומביה|CO:קולורדו|CT:קונטיקט|CA:קליפורניה|KS:קנזס|KY:קנטקי|SC:קרולינה הדרומית|NC:קרולינה הצפונית|RI:רוד אילנד</value>
+  </data>
+  <data name="ShortDateFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="ShowHideColumns" xml:space="preserve">
+    <value>הצג/הסתר עמודות</value>
+  </data>
+  <data name="CheckAll" xml:space="preserve">
+    <value>סמן הכל</value>
+  </data>
+  <data name="ExportSelectedToExcel" xml:space="preserve">
+    <value>ייצא את המסומנים</value>
+  </data>
+  <data name="UncheckAll" xml:space="preserve">
+    <value>נקה הכל</value>
+  </data>
+  <data name="DefaultPageTitle" xml:space="preserve">
+    <value>ברוך הבא הביתה!</value>
+  </data>
+  <data name="DefaultPageBody" xml:space="preserve">
+    <value>:-)</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>נקה</value>
+  </data>
+  <data name="Contains" xml:space="preserve">
+    <value>מכיל</value>
+  </data>
+  <data name="EndsWith" xml:space="preserve">
+    <value>מסתיים ב</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>סנן</value>
+  </data>
+  <data name="FilterLabel" xml:space="preserve">
+    <value>הצג פריטים עם ערך ש:</value>
+  </data>
+  <data name="IsEqualTo" xml:space="preserve">
+    <value>שווה ל</value>
+  </data>
+  <data name="IsNotEqualTo" xml:space="preserve">
+    <value>לא שווה ל</value>
+  </data>
+  <data name="StartsWith" xml:space="preserve">
+    <value>מתחיל ב</value>
+  </data>
+  <data name="a" xml:space="preserve">
+    <value>כהן</value>
+  </data>
+  <data name="b" xml:space="preserve">
+    <value>לוי</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ActionCancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="ActionUpdate" xml:space="preserve">
+    <value>עדכן</value>
+  </data>
+  <data name="SlogenLabel" xml:space="preserve">
+    <value>משווים. קונים. חוסכים.</value>
+  </data>
+  <data name="ContactLabel" xml:space="preserve">
+    <value>צור קשר</value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>חפש</value>
+  </data>
+  <data name="ActionOrder" xml:space="preserve">
+    <value>מסך מכירות</value>
+  </data>
+  <data name="AlreadyExistsCity" xml:space="preserve">
+    <value>שם עיר כבר קיים במאגר נתונים</value>
+  </data>
+  <data name="AreaName" xml:space="preserve">
+    <value>אזור</value>
+  </data>
+  <data name="CityName" xml:space="preserve">
+    <value>עיר</value>
+  </data>
+  <data name="CityTamplate" xml:space="preserve">
+    <value>הקובץ אמור להכיל 3 עמודות : הראשונה היא מספר לשימוש פנימי, השנייה: שם עיר, השלישית היא: שם אזור</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="ImportCityArea" xml:space="preserve">
+    <value>ייבוא ערים ואזורים</value>
+  </data>
+  <data name="ImportErrorsLabel" xml:space="preserve">
+    <value>ישנם שגיאות בקובץ, שים לב לפירוט</value>
+  </data>
+  <data name="ImportNoErrorsLabel" xml:space="preserve">
+    <value>אין שגיאות בקובץ</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>מספר</value>
+  </data>
+  <data name="MessageImportFailedUnknown" xml:space="preserve">
+    <value>הייבוא נכשל</value>
+  </data>
+  <data name="MessageImportSuccess" xml:space="preserve">
+    <value>הייבוא בוצע בהצלחה</value>
+  </data>
+  <data name="MessageWillNotImported" xml:space="preserve">
+    <value>שורה זו מכילה שגיאות ולכן לא יתבצע עבורה ייבוא</value>
+  </data>
+  <data name="ReqCityAndAreaName" xml:space="preserve">
+    <value>שם עיר ואזור חובה</value>
+  </data>
+  <data name="ContactUsSubject" xml:space="preserve">
+    <value>צור קשר אפליקצית משתמשים</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>תוכן</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>אימייל</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>טלפון</value>
+  </data>
+  <data name="MailToAdmin" xml:space="preserve">
+    <value>שלום,
+
+המשתמש  {NAME} מספר טלפון  {PHONE}  מהעיר {CITY}
+
+הוציא מכרז על המוצרים הבאים {PRODUCTS}
+בתאריך  {DATE}בשעה {TIME}
+
+אנא צרו איתו קשר.</value>
+  </data>
+  <data name="SubjectMailToAdminOffers" xml:space="preserve">
+    <value>מכרז ללא תוצאות</value>
+  </data>
+</root>

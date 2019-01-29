@@ -1,0 +1,37 @@
+.login-page{
+
+	body.rtl &{text-align:right;direction:rtl;}
+	.vhcentered{display:block;margin:0 auto;position:absolute;top:40%;left:50%;}
+	.form{
+		width:490px;margin:0 auto;margin-left:-245px;margin-top:-142px;
+		.frame{width:466px;background:#fff;border:1px solid #eee;padding:12px;
+		  -webkit-border-radius: 6px;
+			 -moz-border-radius: 6px;
+				  border-radius: 6px;
+		  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+		  -webkit-box-shadow: 2px 2px 4px 1px #ccc;
+			 -moz-box-shadow: 2px 2px 4px 1px #ccc;
+				  box-shadow: 2px 2px 4px 1px #ccc;
+		}
+	}
+	.logo{text-align:center;line-height:0;font-size:0; img{border:none;vertical-align:top;} }
+	table{
+		td.label{width:110px;}
+		.input-text{width:320px}
+	}
+	.nowrap{white-space:nowrap}
+	
+	.hi-title{font-size:22px;}
+	.description{font-size:14px;}
+
+	.form-footer{
+		.no-account{
+			font-size:12px;padding:4px 12px 0 12px;float:left;
+			body.rtl &{float:right;}
+		}
+		.back-to-site{
+			font-size:12px;padding:4px 12px 0 12px;float:right;
+			body.rtl &{float:left;}
+		}
+	}
+}

@@ -1,0 +1,171 @@
+﻿<%@ Master Language="C#" Inherits="Snoopi.web.WebControls.AdminMasterPage"  AutoEventWireup="true"%>
+<%@ Register Namespace="Snoopi.web.WebControls" Assembly="Snoopi.web" TagPrefix="Custom" %>
+<%@ Import Namespace="dg.Utilities" %>
+<%@ Import Namespace="Snoopi.web" %>
+<%@ Import Namespace="Snoopi.web.Localization" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head" runat="server">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex,nofollow" />
+    <link rel="stylesheet" media="screen,projection" type="text/css" href="/resources/css/main.css" />
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="/resources/css/main.min.css" /> <!-- MAIN STYLE SHEET -->
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="/resources/css/main-2cols.css" title="show-side-bar" /> <!-- DEFAULT: 2 COLUMNS -->
+	<link rel="alternate stylesheet" media="screen,projection" type="text/css" href="/resources/css/main-1cols.css" title="hide-side-bar" /> <!-- ALTERNATE: 1 COLUMN -->
+    <link  rel="icon" type="image/png" href="~/fav_icon2.png" />
+    <link href="resources/css/filter.css" rel="stylesheet" />
+    <%--<script src="https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+    --%>
+    <!--MultipleSelect-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href="resources/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script src="resources/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+    <link href="resources/bootstrap-multiselect/bootstrap-multiselect.css" rel="stylesheet" type="text/css"/>
+    <link href="resources/css/jquery.dataTables.css" rel="stylesheet" />
+    <script src="resources/bootstrap-multiselect/bootstrap-multiselect.js" type="text/javascript"></script>
+    <!--MultipleSelect-->
+    <script src="resources/js/jquery.dataTables.js" type="text/javascript"></script>
+    <script src="resources/js/filterable.js" type="text/javascript"></script>
+    <asp:Literal ID="ltScripts" runat="server" EnableViewState="false"></asp:Literal>
+    <asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+   
+</head>
+
+<body runat="server" id="Body">
+
+    <div class="main-wrapper">
+
+	    <!-- Tray -->
+	    <div class="header-tray">
+
+		    <div class="part1">
+
+			    <!-- Switcher -->
+			    <span class="side-bar-switcher">
+                    <a class="dgAutoCssSwitcher ico-col1" href="#" rel="hide-side-bar" title="<%= AdminMasterPageStrings.GetHtml(@"HideSideMenu") %>"></a>
+                    <a class="dgAutoCssSwitcher ico-col2" href="#" rel="show-side-bar" title="<%= AdminMasterPageStrings.GetHtml(@"ShowSideMenu") %>"></a>
+			    </span>
+
+		    </div>
+
+		    <div class="part2"><%= AdminMasterPageStrings.GetHtml(@"Username")%>: <strong><a href="EditUser.aspx"><%= SessionHelper.UserEmail().ToHtml()%></a></strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="Logout.aspx" class="logout"><%= AdminMasterPageStrings.GetHtml(@"Logout")%></a></strong></div>
+
+		    <div class="fix-layout"></div>
+		
+	    </div> <!--  /tray -->
+	
+	    <!-- Menu -->
+	    <div class="top-menu">
+
+<%--		    <ul class="special-menu">
+			    <li><a href="#"><span><strong>%= Resources.MasterPage.ViewSite.ToHtml() %></strong></span></a></li>
+		    </ul>
+--%>
+		    <ul>
+                <asp:Literal runat="server" id="ltTopMenu" EnableViewState="false"></asp:Literal>
+		    </ul>
+
+		    <div class="fix-layout"></div>
+		
+	    </div> <!-- /header -->
+        
+
+	    <!-- Columns -->
+	    <div class="body-parts">
+            
+            <form id="frmMain" runat="Server">
+
+		    <!-- Aside (Left Column) -->
+		    <div class="side-bar" id="dvSideBar">
+
+			    <div class="controls">
+
+				    <!-- Logo (Max. width = 200px) -->
+				    <p class="logo"><a href="/" ><img src="/resources/images/logo.png" alt="Snoopi" /></a></p>
+                    
+				    <!-- Search -->
+                    <div runat="server" id="dvSearch" class="search" visible="false">
+					    <fieldset>
+						    <legend><%= AdminMasterPageStrings.GetHtml(@"SearchTitle")%></legend>
+                            <p><asp:TextBox runat="server" ID="txtSearchKeywords" CssClass="input-text"></asp:TextBox><asp:Button runat="server" ID="btnSearch" OnClick="btnSearch_Click" CssClass="button-02" /><br /></p>
+					    </fieldset>
+                    </div>
+				
+                    <asp:Panel runat="server" ID="pSideControls"></asp:Panel>
+
+				    <div class="fix-layout"></div>
+				
+			    </div> <!-- /controls -->
+
+			    <ul>
+                    <asp:Literal runat="server" id="ltSideMenu" EnableViewState="false"></asp:Literal>
+			    </ul>
+
+			    <div class="fix-layout"></div>
+		
+		    </div> <!-- /aside -->
+
+		    <!-- Content (Right Column) -->
+		    <div class="body-content" id="dvBodyContent">
+
+                <asp:ScriptManager ID="scriptManager" runat="server" EnablePartialRendering="true" />
+
+                <h1 runat="Server" id="dvPageTitle"></h1>
+
+                <Custom:MessageCenter runat="server" ID="mcMessageCenter" />
+                    
+	            <asp:ContentPlaceHolder id="cphContent" runat="server"></asp:ContentPlaceHolder>
+
+		    </div> <!-- /content -->
+
+		    <div class="fix-layout"></div>
+		
+            </form>
+
+	    </div> <!-- /cols -->
+
+		<div class="fix-layout"></div>
+        <script type="text/javascript">
+        // <![CDATA[
+            dgTools.observe(window, 'load', dgTools.observe(document, 'dom:onLoad', function () {
+                var dvBodyContent = dgTools.$('dvBodyContent');
+                var h1 = dgTools.dom.size(dgTools.$('dvSideBar')).height;
+                var h2 = dgTools.dom.size(dvBodyContent).height;
+                if (h1 > h2) {
+                    var tbpad = parseFloat(dgTools.dom.css(dvBodyContent, 'padding-top')) || 0;
+                    tbpad += parseFloat(dgTools.dom.css(dvBodyContent, 'padding-bottom')) || 0
+                    if (window.ie && window.ie < 7) dgTools.dom.css(dvBodyContent, { 'height': (h1 - tbpad) + 'px' });
+                    else {
+                        if (!$('.suppliersList').length)
+                        dgTools.dom.css(dvBodyContent, { 'min-height': (h1 - tbpad) + 'px' });
+                    }
+                }
+               
+            }));
+            // ]]>
+
+            //filter
+            function openFilterPanel() {
+                pnlFilter.css("display", "block");
+            }
+
+        </script>
+
+
+	    <!-- Footer -->
+	    <div class="page-footer">
+            <!--<div class="part1">&copy;  Snoopi, All rights reserved &reg;</div>-->
+		    <div class="part1">&copy;  Snoopi, All rights reserved &reg; </div>
+             <p><asp:Label runat="server" ID="lbVersion"></asp:Label></p>
+		    <div class="part2"></div>
+
+
+		    <div class="fix-layout"></div>
+
+	    </div> <!-- /footer -->
+
+    </div> <!-- /main -->
+
+</body>
+
+</html>

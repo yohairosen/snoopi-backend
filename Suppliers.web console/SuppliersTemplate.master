@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" Inherits="Snoopi.web.WebControls.SuppliersMasterPage" %>
+
+<%@ Register Namespace="Snoopi.web.WebControls" Assembly="Snoopi.web" TagPrefix="Custom" %>
+<%@ Import Namespace="dg.Utilities" %>
+<%@ Import Namespace="Snoopi.web" %>
+<%@ Import Namespace="Snoopi.web.Localization" %>
+<%@ Register Namespace="Snoopi.web.Localization.WebControls" Assembly="Snoopi.web" TagPrefix="Localized" %>
+<!DOCTYPE html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="resources/css/Main.css" rel="stylesheet" />
+    <link href="resources/css/Main-.css" rel="stylesheet" />
+       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+   
+    <script src="resources/js/jquery.dataTables.js"></script>
+    <link href="resources/css/jquery.dataTables.css" rel="stylesheet" />
+     <link  rel="icon" type="image/png" href="~/fav_icon2.png" />
+ <script src="resources/js/filterable.js" type="text/javascript"></script>
+      <script src="resources/js/main.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="Body" runat="server">
+    <div class="main-wrapper">
+        <form id="form1" runat="server">
+            <header>
+                <div class="header-wrapper orange">
+                    <div class="login-top-wrapper"><asp:Label ID="helloExit" Visible="false" runat="server" class="center logout-hello"><%= AdminMasterPageStrings.GetHtml(@"Hello")%> <%= SuppliersSessionHelper.SupplierName().ToHtml()%>! &nbsp;&nbsp;|&nbsp;&nbsp;<a href="Logout.aspx" class="logout"><%= AdminMasterPageStrings.GetHtml(@"Exit")%></a></asp:Label></div>
+                    <div class="menu display-table">
+                        <span class="logo">
+                            <img class="logo-image" src="/resources/images/logo.png" alt="Snoopi" /></span>
+                        <span class="title-logo">ממשק ספקים</span>
+                        
+                        <nav id="ddmenu">
+                        <div class="menu-icon" onclick="toggleMenu()"></div>
+                        <div id="TopMenu" runat="server" class="top-menu">
+                            <ul class="ul-menu">
+                                 <li class="li-menu no-sub">
+                                    <asp:LinkButton ID="MyProfile" runat="server" CssClass="white" visible="false" href="/MyProfile.aspx" CausesValidation="false">
+                                        <Localized:Label ID="lblMyProfile" CssClass="top-heading" runat="server" LocalizationClass="Menu" LocalizationId="Profile"></Localized:Label>
+                                    </asp:LinkButton></li>
+                                <li class="li-menu no-sub">
+                                    <asp:LinkButton ID="lbHomePage" CssClass="white" visible="false" runat="server" href="/HomePage.aspx" CausesValidation="false">
+                                        <Localized:Label ID="lblHomePage" CssClass="top-heading" runat="server" LocalizationClass="Menu" LocalizationId="HomePage"></Localized:Label>
+                                    </asp:LinkButton></li>
+                                <li class="li-menu no-sub">
+                                    <asp:LinkButton ID="nProductManegemet" CssClass="white" visible="false"  runat="server" href="/ProductManegement.aspx" CausesValidation="false">
+                                        <Localized:Label ID="lblProductManegement" CssClass="top-heading" runat="server" LocalizationClass="Menu" LocalizationId="ProductManegement"></Localized:Label>
+                                    </asp:LinkButton></li>
+                                <li class="li-menu no-sub">
+                                    <asp:LinkButton ID="DealsHistory" runat="server" CssClass="white" visible="false" href="/DealsHistory.aspx" CausesValidation="false">
+                                        <Localized:Label ID="lblDealsHistory" CssClass="top-heading" runat="server" LocalizationClass="Menu" LocalizationId="DealsHistory"></Localized:Label>
+                                    </asp:LinkButton></li>
+                                 <li class="li-menu no-sub">
+                                    <asp:LinkButton ID="ClicksHistory" runat="server" CssClass="white" visible="false" href="/ClicksHistory.aspx" CausesValidation="false">
+                                        <Localized:Label ID="lblClicksHistory" CssClass="top-heading" runat="server" LocalizationClass="Menu" LocalizationId="ClicksHistory"></Localized:Label>
+                                    </asp:LinkButton></li>
+                                <li class="li-menu no-sub">
+                                    <Localized:HyperLink runat="server" CssClass="contact blue top-heading" LocalizationClass="Menu" NavigateUrl="/Contact.aspx" LocalizationId="Contact"></Localized:HyperLink>
+                                </li>
+                            </ul>
+                        </div>
+                      </nav>
+
+                    </div>
+                </div>
+
+            </header>
+                <div class="banner">
+                    <img class="image-banner" src="/resources/images/banner.png" alt="Snoopi" />
+                    <div></div>
+                </div>
+          
+                <asp:ScriptManager ID="scriptManager" runat="server" EnablePartialRendering="true" />
+                
+            <div class="content body-center" id="dvBodyContent">               
+
+              <h1 runat="Server" id="dvPageTitle" class="page-title"></h1>
+
+                <Custom:MessageCenter runat="server" ID="mcMessageCenter" />
+
+                <asp:ContentPlaceHolder ID="cphContent" runat="server"></asp:ContentPlaceHolder>
+
+            </div>
+            <!-- /content -->
+        </form>
+        		<div class="fix-layout"></div>
+
+        <!-- Footer -->
+        <div class="page-footer blue">
+
+            <span class="footer">snoopi</span>
+
+            <%--		    <div class="fix-layout"></div>--%>
+        </div>
+        <!-- /footer -->
+    </div>    
+</body>
+</html>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditUserPageTitle" xml:space="preserve">
+    <value>ערוך חשבון משתמש</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>אימייל</value>
+  </data>
+  <data name="IsLocked" xml:space="preserve">
+    <value>נעול?</value>
+  </data>
+  <data name="LastLogin" xml:space="preserve">
+    <value>התחבר לאחרונה</value>
+  </data>
+  <data name="MessageCreateFailedAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות ליצור משתמש, כתובת אימייל זו כבר בשימוש ע"י משתמש אחר.</value>
+  </data>
+  <data name="MessageCreateFailedEmailAddressInvalid" xml:space="preserve">
+    <value>אין אפשרות ליצור משתמש, כתובת האימייל שסיפקת אינה תקינה.</value>
+  </data>
+  <data name="MessageCreateFailedUnknown" xml:space="preserve">
+    <value>אין אפשרות ליצור משתמש, אירעה שגיאה לא ידועה.</value>
+  </data>
+  <data name="MessageEmailChangeFailed" xml:space="preserve">
+    <value>לא ניתן לשנות כתובת אימייל. כתובת זו קרוב לוודאי בשימוש של משתמש אחר.</value>
+  </data>
+  <data name="MessageNoDataHere" xml:space="preserve">
+    <value>אין כאן נתונים. לא נמצאו משתמשים. נשמע מוזר? בהחלט. כנראה שתרצה ליצור קשר עם מנהל מערכת, לבדוק את העניין...</value>
+  </data>
+  <data name="MessagePasswordChangeFailedUnknown" xml:space="preserve">
+    <value>לא ניתן לשנות סיסמא, אירעה שגיאה לא ידועה.</value>
+  </data>
+  <data name="MessageUserCreated" xml:space="preserve">
+    <value>חשבון המשתמש נוצר בהצלחה.</value>
+  </data>
+  <data name="MessageUserSaved" xml:space="preserve">
+    <value>חשבון המשתמש נשמר.</value>
+  </data>
+  <data name="NewUserButton" xml:space="preserve">
+    <value>משתמש חדש</value>
+  </data>
+  <data name="NewUserPageTitle" xml:space="preserve">
+    <value>יצירת חשבון משתמש חדש</value>
+  </data>
+  <data name="PermissionsPanel" xml:space="preserve">
+    <value>הרשאות</value>
+  </data>
+  <data name="Perm_sys_backups" xml:space="preserve">
+    <value>גיבוי ושחזור מסד נתונים</value>
+  </data>
+  <data name="Perm_sys_edit_appusers" xml:space="preserve">
+    <value>ניהול משתמשי אפליקציה</value>
+  </data>
+  <data name="Perm_sys_edit_emails" xml:space="preserve">
+    <value>ניהול תבניות ותיעוד אימייל</value>
+  </data>
+  <data name="Perm_sys_edit_users" xml:space="preserve">
+    <value>ניהול משתמשים</value>
+  </data>
+  <data name="Perm_sys_settings" xml:space="preserve">
+    <value>ניהול הגדרות מערכת</value>
+  </data>
+  <data name="Perm_sys_view_appusers" xml:space="preserve">
+    <value>צפייה במשתמשי אפליקציה</value>
+  </data>
+  <data name="Perm_sys_view_emails" xml:space="preserve">
+    <value>צפייה בתבניות ותיעוד אימייל</value>
+  </data>
+  <data name="Perm_sys_view_users" xml:space="preserve">
+    <value>צפייה במשתמשים</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>שמור משתמש</value>
+  </data>
+  <data name="UserCurrentPasswordLabel" xml:space="preserve">
+    <value>סיסמא נוכחית: </value>
+  </data>
+  <data name="UserEmailInvalid" xml:space="preserve">
+    <value>נא לספק כתובת אימייל תקינה.</value>
+  </data>
+  <data name="UserEmailLabel" xml:space="preserve">
+    <value>אימייל: </value>
+  </data>
+  <data name="UserEmailRequired" xml:space="preserve">
+    <value>נא לספק כתובת אימייל.</value>
+  </data>
+  <data name="UserLockedLabel" xml:space="preserve">
+    <value>נעול?</value>
+  </data>
+  <data name="UserNewPasswordConfirmInvalid" xml:space="preserve">
+    <value>הסיסמא לאימות לא תואמת, נא הקלד את הסיסמאות מחדש.</value>
+  </data>
+  <data name="UserNewPasswordConfirmLabel" xml:space="preserve">
+    <value>חזור על הסיסמא: </value>
+  </data>
+  <data name="UserNewPasswordConfirmRequired" xml:space="preserve">
+    <value>אתה צריך לחזור על הסיסמא, זאת על מנת לוודא שהקלדת אותה נכון.</value>
+  </data>
+  <data name="UserNewPasswordLabel" xml:space="preserve">
+    <value>סיסמא חדשה:</value>
+  </data>
+  <data name="UserNewPasswordRequired" xml:space="preserve">
+    <value>נא להקליד סיסמא.</value>
+  </data>
+  <data name="DeleteUserButton" xml:space="preserve">
+    <value>מחק משתמש!</value>
+  </data>
+  <data name="DeleteUserConfirmCheckbox" xml:space="preserve">
+    <value>כן אני בטוח.</value>
+  </data>
+  <data name="DeleteUserConfirmLabel" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק משתמש זה וכל המידע המשויך אליו?</value>
+  </data>
+  <data name="DeleteUserConfirmRequired" xml:space="preserve">
+    <value>אינך יכול למחוק משתמש זה בלי לאשר שאתה יודע מה אתה עושה.</value>
+  </data>
+  <data name="DeleteUserPageTitle" xml:space="preserve">
+    <value>מחק את משתמש &lt;i&gt;{0}&lt;/i&gt;</value>
+  </data>
+  <data name="MessagePasswordChangeBadOldPassword" xml:space="preserve">
+    <value>לא ניתן לשנות סיסמא, הסיסמא הנוכחית לא תואמת לסיסמא שסיפקת.</value>
+  </data>
+  <data name="UsersCountLabel" xml:space="preserve">
+    <value>סה"כ משתמשים שנמצאו:</value>
+  </data>
+  <data name="UsersPageTitle" xml:space="preserve">
+    <value>ניהול משתמשים</value>
+  </data>
+  <data name="MessageNoUsersFound" xml:space="preserve">
+    <value>לא נמצאו משתמשים.</value>
+  </data>
+  <data name="SearchLabel" xml:space="preserve">
+    <value>חיפוש משתמשים:</value>
+  </data>
+  <data name="MessageUserDeleted" xml:space="preserve">
+    <value>משתמש נמחק בהצלחה</value>
+  </data>
+</root>

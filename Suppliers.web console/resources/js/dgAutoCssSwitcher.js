@@ -1,0 +1,4 @@
+/* dgTools library by Daniel Cohen Gindi (danielgindi@gmail.com) 054-5655765 */
+/* Version: 2012-03-22 */
+/* Depends on dgTools.js */
+(function(){var a=window.dgAutoCssSwitcher={switchStylestyle:function(c){var d=dgTools.select(">html>head link[rel*=style][title]");for(var b=0;b<d.length;b++){d[b].disabled=true;if(d[b].getAttribute("title")==c){d[b].disabled=false}}dgTools.Cookies.save("dgAutoCssSwitcher",c,365)},_FSwitch:function(b){b=new dgTools.Event(b);b.stop();a.switchStylestyle(this.getAttribute("rel"));return false},startAll:function(){var d=dgTools.select("A.dgAutoCssSwitcher");for(var b=0;b<d.length;b++){dgTools.observe(d[b],"click",this._FSwitch.bind(d[b]))}var e=dgTools.Cookies.read("dgAutoCssSwitcher");if(e){this.switchStylestyle(e)}}};dgTools.observe(document,"dom:onLoad",function(){a.startAll()})})();

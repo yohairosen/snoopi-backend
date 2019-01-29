@@ -1,0 +1,3 @@
+Email,Password,First name,Last name,Locked?,Phone
+new@gmail.com,123,New,One,0,"""0572222222"""
+fresh@gmail.com,456,Fresh,One,1,"""089999999"""

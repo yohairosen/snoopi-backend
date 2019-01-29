@@ -1,0 +1,48 @@
+@mixin gradient($from, $to, $direction: "down", $old_ie: true) {
+
+	$ie_type:0;
+	$webkit1:left top;
+	$webkit2:left bottom;
+	$linearp:top;
+	$linear:to bottom;
+
+	@if $direction == "down" {
+	} @else if $direction == "right" {
+		$ie_type:1;
+		$webkit1:left top;
+		$webkit2:right top;
+		$linearp:left;
+		$linear:to right;
+	} @else if $direction == "up" {
+		$tmp: $from;
+		$from: $to;
+		$to: $tmp;
+	} @else if $direction == "left" {
+		$ie_type:1;
+		$tmp: $from;
+		$from: $to;
+		$to: $tmp;
+		$webkit1:left top;
+		$webkit2:right top;
+		$linearp:left;
+		$linear:to right;
+	}
+	
+	background:transparent;
+    background-color: rgba(mix($from, $to, 0.5), alpha(mix($from, $to, 0.5)));
+	@if $old_ie {
+		zoom:1;
+		filter:unquote("progid:DXImageTransform.Microsoft.gradient(startColorstr=") + ie_hex_str($from) + unquote(", endColorstr=") + ie_hex_str($to) + unquote(", GradientType=") + $ie_type + unquote(")");
+		@media all and (min-width:0) {
+			& { filter:default } 
+		}
+	}
+
+    background-image: -webkit-gradient(linear, $webkit1, $webkit2, from($from), to($to));
+    background-image: -webkit-linear-gradient($linearp, $from 0%, $to 100%);
+    background-image: -moz-linear-gradient($linearp, $from 0%, $to 100%);
+    background-image: -o-linear-gradient($linearp, $from 0%, $to 100%);
+    background-image: -ms-linear-gradient($linearp, $from 0%, $to 100%);
+    background-image: linear-gradient($linear, $from 0%, $to 100%);
+    background-repeat: repeat-x;
+}

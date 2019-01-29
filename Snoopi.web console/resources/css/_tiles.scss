@@ -1,0 +1,18 @@
+td.data-tile{
+	width:200px;background:#99CCFF;padding:10px !important;color:#000;
+	.main{font:bold 30px Arial;}
+	.small-float{
+		display:inline;float:right;font:10px;
+		body.rtl &{float:left;}
+	}
+	.description{}
+}
+td.data-tile-02{
+	width:200px;background:#FFF5BD;padding:10px !important;color:#000;
+	.main{font:bold 30px Arial;}
+	.small-float{
+		display:inline;float:right;font-size:11px;
+		body.rtl &{float:left;}
+	}
+	.description{}
+}

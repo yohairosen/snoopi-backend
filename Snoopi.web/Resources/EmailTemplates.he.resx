@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionDelete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="ActionEdit" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>פעולות</value>
+  </data>
+  <data name="BCC" xml:space="preserve">
+    <value>עותק נסתר</value>
+  </data>
+  <data name="BccLabel" xml:space="preserve">
+    <value>עותק נסתר:</value>
+  </data>
+  <data name="BodyLabel" xml:space="preserve">
+    <value>גוף ההודעה:</value>
+  </data>
+  <data name="Brief" xml:space="preserve">
+    <value>תקציר</value>
+  </data>
+  <data name="CC" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="CcLabel" xml:space="preserve">
+    <value>עותק:</value>
+  </data>
+  <data name="Code_CAMPAIGNNUMBER" xml:space="preserve">
+    <value>הטבה</value>
+  </data>
+  <data name="Code_GIFT" xml:space="preserve">
+    <value>מתנה</value>
+  </data>
+  <data name="Code_PRODUCTCODE" xml:space="preserve">
+    <value>קוד מוצר</value>
+  </data>
+  <data name="Code_PRODUCTDESCIPTION" xml:space="preserve">
+    <value>תאור מוצר</value>
+  </data>
+  <data name="Code_PRODUCTNAME" xml:space="preserve">
+    <value>שם מוצר</value>
+  </data>
+  <data name="Code_RESETLINK" xml:space="preserve">
+    <value>קישור לעמוד איפוס סיסמא</value>
+  </data>
+  <data name="Code_USEREMAIL" xml:space="preserve">
+    <value>כתובת אימייל של המשתמש</value>
+  </data>
+  <data name="Code_USERFULLNAME" xml:space="preserve">
+    <value>משתמש - שם מלא</value>
+  </data>
+  <data name="Code_USERID" xml:space="preserve">
+    <value>קוד משתמש</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>תוכן</value>
+  </data>
+  <data name="CreatedMessage" xml:space="preserve">
+    <value>התבנית נוצרה בחדשה.</value>
+  </data>
+  <data name="EmailLogsCountLabel" xml:space="preserve">
+    <value>סה"כ דברי דואר מתועדים:</value>
+  </data>
+  <data name="EmailLogsPageTitle" xml:space="preserve">
+    <value>תיעוד משלוח דואר אלקטרוני</value>
+  </data>
+  <data name="EmailTemplatesCountLabel" xml:space="preserve">
+    <value>סה"כ תבניות:</value>
+  </data>
+  <data name="EmailTemplatesPageTitle" xml:space="preserve">
+    <value>תבניות דואר אלקטרוני</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>שגיאה</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>מאת</value>
+  </data>
+  <data name="LogNumber" xml:space="preserve">
+    <value>מספר תיעוד</value>
+  </data>
+  <data name="LogStatus_Failed" xml:space="preserve">
+    <value>נכשל</value>
+  </data>
+  <data name="LogStatus_Sent" xml:space="preserve">
+    <value>נשלח</value>
+  </data>
+  <data name="LogStatus_Unknown" xml:space="preserve">
+    <value>לא ידוע</value>
+  </data>
+  <data name="MailPriority_High" xml:space="preserve">
+    <value>גבוה</value>
+  </data>
+  <data name="MailPriority_Low" xml:space="preserve">
+    <value>נמוך</value>
+  </data>
+  <data name="MailPriority_Normal" xml:space="preserve">
+    <value>רגיל</value>
+  </data>
+  <data name="MessageConfirmDeleteLog" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק רישום זה?</value>
+  </data>
+  <data name="MessageConfirmDeleteTemplate" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק תבנית זו?</value>
+  </data>
+  <data name="MessageLogDeleted" xml:space="preserve">
+    <value>הרישום הוסר ממסד הנתונים.</value>
+  </data>
+  <data name="MessageTemplateDeleted" xml:space="preserve">
+    <value>התבנית &lt;b&gt;{0}&lt;/b&gt; הוסרה ממסד הנתונים.</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="NewTemplateButton" xml:space="preserve">
+    <value>תבנית חדשה</value>
+  </data>
+  <data name="NotSavedMessage" xml:space="preserve">
+    <value>התבנית לא נשמרה. אירעה שגיאה.</value>
+  </data>
+  <data name="PanelEditTemplate" xml:space="preserve">
+    <value>עריכת תבנית דוא""ל</value>
+  </data>
+  <data name="PanelNewTemplate" xml:space="preserve">
+    <value>תבנית דוא""ל חדשה</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>עדיפות</value>
+  </data>
+  <data name="PriorityHigh" xml:space="preserve">
+    <value>גבוהה</value>
+  </data>
+  <data name="PriorityLabel" xml:space="preserve">
+    <value>עדיפות:</value>
+  </data>
+  <data name="PriorityLow" xml:space="preserve">
+    <value>נמוכה</value>
+  </data>
+  <data name="PriorityNormal" xml:space="preserve">
+    <value>רגיל</value>
+  </data>
+  <data name="Recipient" xml:space="preserve">
+    <value>נמען</value>
+  </data>
+  <data name="RecipientLabel" xml:space="preserve">
+    <value>נמען:</value>
+  </data>
+  <data name="ReplyToEmailLabel" xml:space="preserve">
+    <value>כתובת לתשובה:</value>
+  </data>
+  <data name="ReplyToNameLabel" xml:space="preserve">
+    <value>שם לתשובה:</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="SavedMessage" xml:space="preserve">
+    <value>התבנית נשמרה בהצלחה.</value>
+  </data>
+  <data name="SenderEmailLabel" xml:space="preserve">
+    <value>כתובת השולח:</value>
+  </data>
+  <data name="SenderNameLabel" xml:space="preserve">
+    <value>שם השולח</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>נושא</value>
+  </data>
+  <data name="SubjectLabel" xml:space="preserve">
+    <value>נושא:</value>
+  </data>
+  <data name="TemplateNameLabel" xml:space="preserve">
+    <value>שם:</value>
+  </data>
+  <data name="TemplateNameRequired" xml:space="preserve">
+    <value>יש להזין שם לתבנית זו.</value>
+  </data>
+  <data name="TitleEditTemplate" xml:space="preserve">
+    <value>עריכת תבנית דוא"ל - {0}</value>
+  </data>
+  <data name="TitleNewTemplate" xml:space="preserve">
+    <value>יצירת תבנית דוא"ל חדשה</value>
+  </data>
+  <data name="TitleTemplateCodes" xml:space="preserve">
+    <value>מפרט קודים לתבניות דוא"ל</value>
+  </data>
+</root>

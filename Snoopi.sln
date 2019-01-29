@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Suppliers.web console", "Suppliers.web console\", "{19788BB7-B420-4437-9459-7432F8B4B036}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{4d29cb78-8501-4645-b34c-9c1dbd6c0a97}|Snoopi.core.dll;{4d291278-8501-4645-b34c-9c1dbd6c0a97}|Snoopi.web.dll;{1F4278B7-1673-4125-A3F3-79C254094C61}|Snoopi.infrastructure.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Suppliers.web console"
+		Debug.AspNetCompiler.PhysicalPath = "Suppliers.web console\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Suppliers.web console\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Suppliers.web console"
+		Release.AspNetCompiler.PhysicalPath = "Suppliers.web console\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Suppliers.web console\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57690"
+		VWDVirtualPath = "/"
+		SlnRelativePath = "Suppliers.web console\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Snoopi.web console", "Snoopi.web console\", "{4CCACEE3-A75B-441D-8CBC-BC354CB57C83}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{93ED7DFB-7B42-499C-966F-DDF224F6E8D5}|Snoopi.api.dll;{4D29CB78-8501-4645-B34C-9C1DBD6C0A97}|Snoopi.core.dll;{4D291278-8501-4645-B34C-9C1DBD6C0A97}|Snoopi.web.dll;{1F4278B7-1673-4125-A3F3-79C254094C61}|Snoopi.infrastructure.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Snoopi.web console"
+		Debug.AspNetCompiler.PhysicalPath = "Snoopi.web console\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Snoopi.web console\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Snoopi.web console"
+		Release.AspNetCompiler.PhysicalPath = "Snoopi.web console\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Snoopi.web console\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63972"
+		VWDVirtualPath = "/"
+		SlnRelativePath = "Snoopi.web console\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snoopi.api", "Snoopi.api\Snoopi.api.csproj", "{93ED7DFB-7B42-499C-966F-DDF224F6E8D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snoopi.core", "Snoopi.core\Snoopi.core.csproj", "{4D29CB78-8501-4645-B34C-9C1DBD6C0A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snoopi.web", "Snoopi.web\Snoopi.web.csproj", "{4D291278-8501-4645-B34C-9C1DBD6C0A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snoopi.infrastructure", "Snoopi.infrastructure\Snoopi.infrastructure.csproj", "{1F4278B7-1673-4125-A3F3-79C254094C61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19788BB7-B420-4437-9459-7432F8B4B036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19788BB7-B420-4437-9459-7432F8B4B036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19788BB7-B420-4437-9459-7432F8B4B036}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{19788BB7-B420-4437-9459-7432F8B4B036}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4CCACEE3-A75B-441D-8CBC-BC354CB57C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCACEE3-A75B-441D-8CBC-BC354CB57C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCACEE3-A75B-441D-8CBC-BC354CB57C83}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCACEE3-A75B-441D-8CBC-BC354CB57C83}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{93ED7DFB-7B42-499C-966F-DDF224F6E8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93ED7DFB-7B42-499C-966F-DDF224F6E8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93ED7DFB-7B42-499C-966F-DDF224F6E8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93ED7DFB-7B42-499C-966F-DDF224F6E8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D29CB78-8501-4645-B34C-9C1DBD6C0A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D29CB78-8501-4645-B34C-9C1DBD6C0A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D29CB78-8501-4645-B34C-9C1DBD6C0A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D29CB78-8501-4645-B34C-9C1DBD6C0A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D291278-8501-4645-B34C-9C1DBD6C0A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D291278-8501-4645-B34C-9C1DBD6C0A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D291278-8501-4645-B34C-9C1DBD6C0A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D291278-8501-4645-B34C-9C1DBD6C0A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4278B7-1673-4125-A3F3-79C254094C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4278B7-1673-4125-A3F3-79C254094C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4278B7-1673-4125-A3F3-79C254094C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4278B7-1673-4125-A3F3-79C254094C61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E0DF38F-EF46-431F-9433-B7412383B61F}
+	EndGlobalSection
+EndGlobal

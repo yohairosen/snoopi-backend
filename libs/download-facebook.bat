@@ -1,0 +1,2 @@
+nuget install Facebook
+pause

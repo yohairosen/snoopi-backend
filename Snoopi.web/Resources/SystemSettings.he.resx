@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditSettingsPageTitle" xml:space="preserve">
+    <value>ניהול הגדרות מערכת</value>
+  </data>
+  <data name="WebSettingsPanel" xml:space="preserve">
+    <value>הגדרות Web כלליות</value>
+  </data>
+  <data name="TempUploadFolderLabel" xml:space="preserve">
+    <value>כתובת מקומית לתיקית העלאת קבצים זמניים:</value>
+  </data>
+  <data name="ApiTempUploadFolderLabel" xml:space="preserve">
+    <value>כתובת מקומית לתיקית העלאת קבצים זמניים (מנקודת המבט של שכבת ה-API):</value>
+  </data>
+  <data name="SecureUploadFolderLabel" xml:space="preserve">
+    <value>תיקיה להעלאת קבצים מוגנים:</value>
+  </data>
+  <data name="WebRootUrlLabel" xml:space="preserve">
+    <value>כתובת בסיס לפאנל ה-Web:</value>
+  </data>
+  <data name="AdminEmailLabel" xml:space="preserve">
+    <value>אימייל של מנהל המערכת:</value>
+  </data>
+  <data name="DefaultEmailFromLabel" xml:space="preserve">
+    <value>ברירת מחדל לכתובת בשדה "מאת" בדברי דואר:</value>
+  </data>
+  <data name="DefaultEmailFromNameLabel" xml:space="preserve">
+    <value>ברירת מחדל לשם בשדה "מאת" בדברי דואר:</value>
+  </data>
+  <data name="DefaultEmailReplyToLabel" xml:space="preserve">
+    <value>ברירת מחדל לכתובת בשדה "השב-ל-" בדברי דואר:</value>
+  </data>
+  <data name="DefaultEmailReplyToNameLabel" xml:space="preserve">
+    <value>ברירת מחדל לשם בשדה "השב-ל-" בדברי דואר:</value>
+  </data>
+  <data name="MailServerHostNameLabel" xml:space="preserve">
+    <value>כתובת שרת המייל</value>
+  </data>
+  <data name="MailSettingsPanel" xml:space="preserve">
+    <value>הגדרות מייל</value>
+  </data>
+  <data name="MailServerAuthenticationLabel" xml:space="preserve">
+    <value>שרת המייל דורש אימות חשבון דואר יוצא?</value>
+  </data>
+  <data name="MailServerUserNameLabel" xml:space="preserve">
+    <value>שם משתמש לחשבון מייל:</value>
+  </data>
+  <data name="MailServerPasswordLabel" xml:space="preserve">
+    <value>סיסמא לחשבון המייל</value>
+  </data>
+  <data name="MailServerPortLabel" xml:space="preserve">
+    <value>פורט לשרת המייל</value>
+  </data>
+  <data name="MailServerSslLabel" xml:space="preserve">
+    <value>שרת המייל משתמש ב-SSL?</value>
+  </data>
+  <data name="TestMailButton" xml:space="preserve">
+    <value>בדוק הגדרות מייל</value>
+  </data>
+  <data name="EmailTemplateSettingsPanel" xml:space="preserve">
+    <value>תבניות אימייל</value>
+  </data>
+  <data name="MessageSaveSuccess" xml:space="preserve">
+    <value>ההגדרות נשמרו. נא לוודא שהכל תקין.</value>
+  </data>
+  <data name="MessageTestMailFailed" xml:space="preserve">
+    <value>אימייל בדיקה נכשל בשליחה. שגיאה:\n{0}</value>
+  </data>
+  <data name="MessageTestMailSuccess" xml:space="preserve">
+    <value>אימייל בדיקה נשלח בהצלחה אל {0}.</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>שמור!</value>
+  </data>
+  <data name="SaveConfirmLabel" xml:space="preserve">
+    <value>אשר שברצונך לשמור</value>
+  </data>
+  <data name="SaveConfirmRequired" xml:space="preserve">
+    <value>אם ברצונך לשמור את ההגדרות, עליך לסמן V בתיבה :-)</value>
+  </data>
+  <data name="SpecialSettingsPanel" xml:space="preserve">
+    <value>הגדרות מיוחדות</value>
+  </data>
+  <data name="ApiRootUrlLabel" xml:space="preserve">
+    <value>כתובת הבסיס לשכבת הAPI:</value>
+  </data>
+  <data name="ApiAppUsersUploadFolderLabel" xml:space="preserve">
+    <value>כתובת מקומית לתיקית העלאת קבצים מהאפליקציה (מנקודת המבט של שכבת ה-API):</value>
+  </data>
+  <data name="AppUsersUploadFolderLabel" xml:space="preserve">
+    <value>כתובת מקומית לתיקית העלאת קבצים מהאפליקציה:</value>
+  </data>
+  <data name="MatchRadiusFromLabel" xml:space="preserve">
+    <value>רדיוס להתאמת כתובת "מהיכן":&lt;sup&gt;(מטרים)&lt;/sup&gt;</value>
+  </data>
+  <data name="EmailTemplateAppUserForgotPasswordLabel" xml:space="preserve">
+    <value>תבנית מייל למשתמש אפליקציה ששכח סיסמא:</value>
+  </data>
+  <data name="EmailTemplateNewAppUserWelcomeLabel" xml:space="preserve">
+    <value>תבנית אימייל למשתמש חדש באפליקציה, שאינו צריך לאמת את כתובת המייל:</value>
+  </data>
+  <data name="EmailTemplateUserForgotPasswordLabel" xml:space="preserve">
+    <value>תבנית מייל למשתמש ששכח סיסמא:</value>
+  </data>
+  <data name="MatchRadiusToLabel" xml:space="preserve">
+    <value>רדיוס להתאמת כתובת "אל":&lt;sup&gt;(מטרים)&lt;/sup&gt;</value>
+  </data>
+  <data name="MatchDateDiffLabel" xml:space="preserve">
+    <value>מקסימום הפרש בהתאמת זמן נסיעה: &lt;sup&gt;(דקות)&lt;/sup&gt;</value>
+  </data>
+  <data name="AppUserSettingsPanel" xml:space="preserve">
+    <value>הגדרות משתמשי אפליקציה</value>
+  </data>
+  <data name="AppUserVerifyEmailLabel" xml:space="preserve">
+    <value>משתמשי אפליקציה צריכים לאמת את כתובת האימייל?</value>
+  </data>
+  <data name="EmailTemplateNewAppUserWelcomeVerifyEmailLabel" xml:space="preserve">
+    <value>תבנית אימייל למשתמש חדש באפליקציה, אשר צריך לאמת את כתובת המייל:</value>
+  </data>
+  <data name="ActiveBid" xml:space="preserve">
+    <value>מספר שעות מכרז פעיל</value>
+  </data>
+  <data name="BannersSettingsPanel" xml:space="preserve">
+    <value>ניהול באנרים</value>
+  </data>
+  <data name="CategoryBanner" xml:space="preserve">
+    <value>באנר לקטגוריות:</value>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>קובץ גדול מדי, גודל מקסימלי 4 MB</value>
+  </data>
+  <data name="HomeBanner" xml:space="preserve">
+    <value>באנר לדף הבית:</value>
+  </data>
+  <data name="OfferEnd" xml:space="preserve">
+    <value>מספר שעות בהם ההצעות תקפות</value>
+  </data>
+  <data name="RadiusSupplier" xml:space="preserve">
+    <value>רדיוס במטרים לספקי שירות</value>
+  </data>
+  <data name="RateSupplier" xml:space="preserve">
+    <value>מספר שעות לדירוג ספק לאחר רכישה</value>
+  </data>
+  <data name="SubCategoryBanner" xml:space="preserve">
+    <value>באנר לתת קטגוריות:</value>
+  </data>
+  <data name="Yad2Expiry" xml:space="preserve">
+    <value>מספר ימים מקסימלי לפרסום מוצר יד שניה</value>
+  </data>
+  <data name="MinAndVersionLabel" xml:space="preserve">
+    <value>גירסת אנדרואיד מינימלית</value>
+  </data>
+  <data name="MinIosVersionLabel" xml:space="preserve">
+    <value>גירסת IOS מינימלית</value>
+  </data>
+  <data name="MinAndSuppVersionLabel" xml:space="preserve">
+    <value>גירסת אנדרואיד מינימלית של אפליקצית ספקים</value>
+  </data>
+  <data name="MinIosSuppVersionLabel" xml:space="preserve">
+    <value>גירסת IOS מינימלית של אפליקצית ספקים</value>
+  </data>
+  <data name="AdminPhoneLabel" xml:space="preserve">
+    <value>טלפון של מנהל המערכת:</value>
+  </data>
+  <data name="OfferMinPrice" xml:space="preserve">
+    <value>מחיר מינימאלי להצעת מכרז</value>
+  </data>
+  <data name="DeviationLowestThreshold" xml:space="preserve">
+    <value>סף לבדיקת חריגויות מחיר</value>
+  </data>
+  <data name="DeviationPercentage" xml:space="preserve">
+    <value>אחוזי סטייה לבדיקת חריגויות מחיר</value>
+  </data>
+  <data name="EmailTemplateAppuserGiftLabel" xml:space="preserve">
+    <value>תבנית אימייל על זכאות למתנה:</value>
+  </data>
+  <data name="EndWorkingHour" xml:space="preserve">
+    <value>שעת סגירת מסחר</value>
+  </data>
+  <data name="MessageExpiration1" xml:space="preserve">
+    <value>זמן לתגובה של ספק</value>
+  </data>
+  <data name="MessageExpiration2" xml:space="preserve">
+    <value>זמן לתגובה של ספק פרימיום</value>
+  </data>
+  <data name="MessageExpiration3" xml:space="preserve">
+    <value>זמן לתגובה של עסקה בהזדמנות</value>
+  </data>
+  <data name="StartWorkingHour" xml:space="preserve">
+    <value>שעת פתיחת מסחר</value>
+  </data>
+  <data name="PrivacyPolicyUrlLabel" xml:space="preserve">
+    <value>URL למדיניות פרטיות</value>
+  </data>
+  <data name="IsSendingMessagesActive" xml:space="preserve">
+    <value>האם מערכת פושים והודעות פעילה?</value>
+  </data>
+  <data name="GenerateSiteMap" xml:space="preserve">
+    <value>צור מפת אתר</value>
+  </data>
+  <data name="GenerateSiteMapFailed" xml:space="preserve">
+    <value>יצירת מפת אתר נכשלה</value>
+  </data>
+</root>

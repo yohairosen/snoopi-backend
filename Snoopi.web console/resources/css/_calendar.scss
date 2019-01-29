@@ -1,0 +1,38 @@
+
+table.calendar{
+	width:100%;
+	thead th{
+		background:#4e4e4e;color:#fff;border-color:#cfcfcf;
+		body.rtl &{border-color:#cfcfcf}
+	}
+	td{
+		background:#e3e3e3;width:14%;color:#000;height:90px;
+		&.empty{background:#efefef;}
+		&.today{
+			background:#0085cc;
+			a{color:#fff;}
+			a:hover,
+			a:active,
+			a:focus{color:#df0000;}
+		}
+	}
+	abbr{
+		display:inline-block;margin:0 5px 5px 0;
+		body.rtl &{margin:0 0 5px 5px}
+	}
+}
+.calendar-paging{
+	text-align:center;margin:15px 0 0;
+	*{display:inline-block;vertical-align:middle;font:12px Arial;color:#d58d12;margin:0 5px;}
+	.prev{
+		width:16px;height:16px;overflow:hidden;background:url('../images/switcher-left.gif') no-repeat 0 0;
+		body.rtl &{background-image:url('../images/switcher-right.gif');}
+	}
+	.next{
+		width:16px;height:16px;overflow:hidden;background:url('../images/switcher-right.gif') no-repeat 0 0;
+		body.rtl &{background-image:url('../images/switcher-left.gif');}
+	}
+	b{color:#d58d12;font-weight:normal;}
+	span b{color:#000;font-weight:bold;margin:0 3px;}
+	a{color:#000;text-decoration:none;}
+}
